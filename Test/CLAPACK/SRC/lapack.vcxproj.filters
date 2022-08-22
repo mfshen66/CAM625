@@ -1,0 +1,4381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slag2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaln2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaslr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaslc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sopgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sopmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorg2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorg2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spstrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spstf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\srscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssfrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgejsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgsvj0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgsvj1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spoequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlag2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaln2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladlr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dopgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dopmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorg2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorg2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpstrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpstf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\drscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlag2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slag2d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlat2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsfrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgejsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgsvj0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgsvj1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpoequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\checon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cherfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claesy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanht.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaclr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaclc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\classq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpstrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpstf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\crot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csrscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cung2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cung2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cupgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cupmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\icmax1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\scsum1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chfrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpoequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zherfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaesy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanht.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilazlr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilazlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpstrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpstf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zdrscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zung2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zung2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zupgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zupmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\izmax1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dzsum1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zcgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zcposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlag2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clag2z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlat2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhfrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztftri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpttr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrttf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpoequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheequb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sbdsdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sdisna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slabad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slae2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaeda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slamrg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapy3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaneg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaruv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slas2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasdq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssterf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\slamch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\winsecond.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dbdsdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ddisna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlabad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlae2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaeda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlamrg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapy3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaneg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaruv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlas2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasdq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsterf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\disnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\dlamch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\maxloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ieeeck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\lsamen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iparmq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaprec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilatrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilauplo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladiag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chla_transtype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\ilaver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\lsame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\SRC\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AA95C6CD-D850-300B-A961-A93E73C7103E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

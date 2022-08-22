@@ -1,0 +1,60 @@
+﻿生成启动时间为 2022/3/6 9:02:36。
+     1>项目“D:\CLAPACK\Testing\LIN\xlintstzc.vcxproj”在节点 10 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/TESTING/LIN/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"xlintstzc.dir\Debug\\" /Fd"xlintstzc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkab.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvab.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvac.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrab.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrac.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget08.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alareq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlarhs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlatb4.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zsbmv.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpot06.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlaipd.c" "D:\clapack-3.2.1-CMAKE\INSTALL\winsecond.c" "D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c"
+         zchkab.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkab.c(393): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkab.c(398): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkab.c(403): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         zdrvab.c
+         zdrvac.c
+         zerrab.c
+         zerrac.c
+         zget08.c
+         alaerh.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c(316): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         alahd.c
+         aladhd.c
+         alareq.c
+         chkxer.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c(37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         zget02.c
+         zlarhs.c
+         zlatb4.c
+         zsbmv.c
+         xerbla.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c(58): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         zpot06.c
+         zlaipd.c
+         winsecond.c
+         windsecnd.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CLAPACK\Testing\LIN\Debug\xlintstzc.exe" /INCREMENTAL /NOLOGO ..\MATGEN\Debug\tmglib.lib ..\..\SRC\Debug\lapack.lib ..\..\BLAS\SRC\Debug\blas.lib ..\..\F2CLIBS\libf2c\Debug\libf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/CLAPACK/Testing/LIN/Debug/xlintstzc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CLAPACK/Testing/LIN/Debug/xlintstzc.lib" /MACHINE:X64  /machine:x64 xlintstzc.dir\Debug\zchkab.obj
+         xlintstzc.dir\Debug\zdrvab.obj
+         xlintstzc.dir\Debug\zdrvac.obj
+         xlintstzc.dir\Debug\zerrab.obj
+         xlintstzc.dir\Debug\zerrac.obj
+         xlintstzc.dir\Debug\zget08.obj
+         xlintstzc.dir\Debug\alaerh.obj
+         xlintstzc.dir\Debug\alahd.obj
+         xlintstzc.dir\Debug\aladhd.obj
+         xlintstzc.dir\Debug\alareq.obj
+         xlintstzc.dir\Debug\chkxer.obj
+         xlintstzc.dir\Debug\zget02.obj
+         xlintstzc.dir\Debug\zlarhs.obj
+         xlintstzc.dir\Debug\zlatb4.obj
+         xlintstzc.dir\Debug\zsbmv.obj
+         xlintstzc.dir\Debug\xerbla.obj
+         xlintstzc.dir\Debug\zpot06.obj
+         xlintstzc.dir\Debug\zlaipd.obj
+         xlintstzc.dir\Debug\winsecond.obj
+         xlintstzc.dir\Debug\windsecnd.obj
+         xlintstzc.vcxproj -> D:\CLAPACK\Testing\LIN\Debug\xlintstzc.exe
+     1>已完成生成项目“D:\CLAPACK\Testing\LIN\xlintstzc.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.37

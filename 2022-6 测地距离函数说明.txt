@@ -1,0 +1,133 @@
+（1）在Part::Part()中直接打开数据模型，测试程序在Test.cpp中
+
+（2）
+// 输入：
+//		pivot:平面上一点
+//		normal:平面法矢
+//		p:三角形内或其边上一点
+//		dir:单位方向，指向测地线的终点
+//		tol:点重合容差
+// 输出：
+//		q是三角形边上一点或三角形顶点
+//		i==j表示q就是顶点i
+//		i!=j表示q在边上，该边的顶点为i和j
+// 功能：
+//		平面切三角形得到三角形边上一点q，保证q-p与dir同向
+// return 0=not found q, 1=found q
+int FaceList::PlaneCut(double pivot[3], 
+					   double normal[3], 
+					   double p[3], 
+					   double dir[3], 
+					   double tol, 
+					   double q[3], 
+					   int& i, 
+					   int& j)
+
+（3）
+// 2022/6/17 nt
+// 功能：计算从p1点到p2点的测地线
+// 输入：
+//		f1:p1点所在的三角形
+//		p1:一个点
+//		f2:p2点所在的三角形
+//		p2:一个点
+//		tol:点重合容差
+//	输出:
+//		polyline:测地线
+//  返回：
+//		0=error,1=success
+int GridModel::CalGeodesicLine(FList f1, 
+							   double p1[3], 
+							   FList f2, 
+							   double p2[3], 
+							   double tol, 
+							   PL** polyline)
+
+(4)
+/*	2022/6/18 nt
+ *	功能：计算点到polyline的最近距离
+ *	输入：
+ *		pGM : GridModel
+ *		fs[0] : Flist which ps[0] is on
+ *		ps[0] : a point on the grid
+ *		tol : 点重合容差
+ *	输出:
+ *		ps[1] : a point on this polyline
+ *		fs[1] : FList which ps[1] is on
+ *		I : index of PTrail
+ *		t : [0.,1.), ps[1] = (1-t)*PTrail[i]+t*PTrail[i+1], i is the return value
+ *	返回:
+ *		最近距离
+ */
+double MTIPathOriginList::Snap(GridModel* pGM, 
+							   FList fs[2], 
+							   double ps[2][3], 
+							   double tol, 
+							   int& I, 
+							   double& t)
+
+（5）
+/*	2022/6/19 nt
+ *	功能：计算两条polyline的最近距离点对串
+ *	输入：
+ *		polys[2] : 两条polyline
+ *		tol : 点重合容差
+ *	输出:
+ *		pGDI : 测地距离信息，见GDINFO
+ *	返回:
+ *		0=error,1=success
+ */
+int CalGDInfo(POList polys[2], double tol, GDINFO** pGDI) ;
+
+（6）点对和测地距离信息
+typedef struct Pp PP ; // point pair
+struct Pp
+{
+	FList fs[2] ;
+	double ps[2][3] ;
+	int I ; // 位置索引, I<1表示这个point pair是无效的，不能用
+	double t ; // [0., 1.)
+	double d ; // geodesic distance
+} ;
+
+typedef struct Gdinfo GDINFO ; // 测地距离信息
+struct Gdinfo
+{
+	int ns[2] ; // ns[0]为polyline1节点个数，ns[1]为polyline2节点个数
+	// pps[0][0],pps[1][0]未用
+	PP* pps[2] ; // pps[0]的元素实际个数为ns[0]+1, pps[1]的元素实际个数为ns[1]+1
+	double min ;
+	double max ;
+	int i ; // i>0, 最小距离点对为pps[0][i], 否则为pps[1][|i|]
+	int I ; // I>0, 最大距离点对为pps[0][I], 否则为pps[1][|I|]
+
+	Gdinfo() ;
+	~Gdinfo() ;
+} ;
+
+（7）其他结构
+// 网格上的点
+typedef struct Pog POG ;
+struct Pog : public CObj // point on grid
+{
+	int type ;
+	void* vef ;
+	double p[3] ;
+
+	Pog(int Type, void* Vef, double P[3]) ;
+	~Pog() ;
+} ;
+
+// 折线
+typedef struct Pl PL ;
+struct Pl
+{
+	COA pogs ;
+	double arcLen ;
+
+	Pl() ;
+	~Pl() ;
+
+	int CalArcLen() ;
+	int Opt(double tol, double eps) ;
+} ;

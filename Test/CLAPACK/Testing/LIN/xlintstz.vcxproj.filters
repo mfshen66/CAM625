@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaesm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alareq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\icopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ilaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\xlaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkaa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkeq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchklq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkpb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkpp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkqp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchkrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchksp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchksy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchktb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchktp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchktr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zchktz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvpb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvpp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrqp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrtz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgbt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgelqs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgeqls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgeqrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgerqs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zget07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgtt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgtt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgtt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zhet01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zhpt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlaipd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlaptm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlarhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlatb4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlatb5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlatsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlatsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlattb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlattp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlattr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlavhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlavhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlavsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlavsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlqt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlqt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zlqt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpbt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpot01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpot02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpot03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpot05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zpst01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zppt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zppt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zppt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zppt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zptt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zptt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zptt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqlt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqlt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqlt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqpt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zqrt17.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zrqt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zrqt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zrqt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zrzt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zrzt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zsbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zspt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zspt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zspt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zsyt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zsyt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zsyt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztbt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztbt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztpt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztpt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztpt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztpt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztpt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztrt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztrt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztrt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztrt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztrt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztzt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ztzt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zgennd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zdrvpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\zerrpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlaord.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AA95C6CD-D850-300B-A961-A93E73C7103E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

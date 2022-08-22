@@ -1,0 +1,36 @@
+﻿生成启动时间为 2022/3/6 9:02:06。
+     1>项目“D:\CLAPACK\BLAS\TESTING\xblat2c.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"xblat2c.dir\Debug\\" /Fd"xblat2c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c"
+         cblat2.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(1271): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(1851): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(2495): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(2965): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(3418): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(3946): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4891): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4892): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4892): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4910): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4911): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4911): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4930): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4931): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4931): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4946): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4948): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4949): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4949): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4962): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\TESTING\cblat2.c(4966): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CLAPACK\BLAS\TESTING\Debug\xblat2c.exe" /INCREMENTAL /NOLOGO ..\SRC\Debug\blas.lib ..\..\F2CLIBS\libf2c\Debug\libf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/CLAPACK/BLAS/TESTING/Debug/xblat2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CLAPACK/BLAS/TESTING/Debug/xblat2c.lib" /MACHINE:X64  /machine:x64 xblat2c.dir\Debug\cblat2.obj
+         xblat2c.vcxproj -> D:\CLAPACK\BLAS\TESTING\Debug\xblat2c.exe
+     1>已完成生成项目“D:\CLAPACK\BLAS\TESTING\xblat2c.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.62

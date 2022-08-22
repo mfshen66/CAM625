@@ -1,0 +1,1102 @@
+******************************.h
+
+typedef struct {
+	double   x,y,z;
+}STLVECTOR;
+typedef struct {
+	double   x,y;
+}POINT2D;
+
+typedef STLVECTOR  STLPNT3D;
+typedef struct VertexList   *VList;
+typedef struct EdgeList     *EList;
+typedef struct FaceList     *FList;
+typedef struct FaceRelated  *FRelated;
+typedef struct MTIPathOriginList    *POList;
+struct VertexList {
+	STLPNT3D     Coord;		
+	STLVECTOR    NormalVector;
+	VList        Rchild;
+	VList        Lchild;
+	FRelated     FaceUsed;
+	int          FaceNum;
+};
+struct EdgeList {
+	VList         VertexUsed[2];
+	EList         ENext;
+	FRelated      FaceUsed;
+	int           FaceNum;
+	double		  FCircleTag;
+	int			  FaceCircleTag;
+};
+struct FaceList {
+	STLVECTOR   NormalVector;
+	VList       VertexUsed[3];
+	EList       EdgeUsed[3];
+	FList       FNext;
+	int         FaceNO;
+	double		  FCircleTag;
+};
+struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
+	int TNum;					//条数标记
+	int DNum;					//段数标记
+	STLPNT3D *PTrail;			//关键点			POLYLINE
+	STLPNT3D *PNTrail;			//关键点法向
+	FList *FTrail;				//相关三角片
+	int *SNum;					//关键点数目起
+	int *ENum;					//关键点数目末
+	POList PONext;
+};
+struct FaceRelated abstract {
+	FList     Face;
+	FRelated  FNext;
+};
+	BOOL stlCreateSTLTriangle(STLPNT3D p1, STLPNT3D p2, STLPNT3D p3);
+	BOOL stlVectorNormal(STLVECTOR *v1);
+
+	//拓扑关系建立
+
+	FList stlCreateFace(STLVECTOR *nv, STLPNT3D *p1, STLPNT3D *p2, STLPNT3D *p3,int tNum);
+	FList stlFaceAlloc();
+	VList stlCreateVertex(VList *root, STLPNT3D *pt);
+	VList stlSortTree(STLPNT3D *pt, VList *t);
+	VList stlVertexAlloc();
+	EList stlCreateEdge(VList p1, VList p2);
+	EList stlEdgeAlloc();
+	void stlAddFace2Vertex(FList f, VList v);
+	void stlAddFace2Edge(FList f, EList e);
+
+	//2016.09Add
+
+	BOOL     stlCompareTwo3DPoint(STLPNT3D p3d1, STLPNT3D p3d2, double epsdis);//两点相似度比较
+	int      stlCompareTriangleVertex(STLPNT3D p1, STLPNT3D p2, STLPNT3D p3, STLPNT3D q1, STLPNT3D q2, STLPNT3D q3);//三角片检测
+
+	STLPNT3D stlTwoVectorPlus(STLPNT3D p1,STLPNT3D p2);//两向量求和p1+p2
+	STLPNT3D stlTwoVectorMinus(STLPNT3D p1,STLPNT3D p2);//两向量求差p1-p2
+	STLPNT3D stlTwoVectorMultiply(STLPNT3D p1,double l1);//向量延长p1*l1
+	STLPNT3D stlTwoVectorDivide(STLPNT3D p1,double l1);//向量缩短p1/l1
+	//20170825 ADD DAT文件处理
+	void stlDealInputFile();
+	void stlReadFile(char *file);
+	void stlReadSTLBinFile(char *file);
+	void stlReadStlFile(char *file);
+	void stlRead4Bytes(FILE *stlfile, char *c);
+	void stlReadDatFile(char *file);
+	void    GetInformationFromPath();//从铺放路径获取信息			主要针对TXT文件
+	POList	stlPOLHeadAlloc();//截断前路径
+    FList stlGetFacetFromNum(int N);
+
+	VList   VRoot;
+	EList   EHead;
+	FList   FHead;
+	int  VerNum;
+	int  EdgeNum;
+	int  FaceNum;
+	POList	*POLHead;//排序后截断前路径//不可分段
+
+******************************.cpp
+BOOL GridModel::stlVectorNormal(STLVECTOR *v1)
+{
+	double alph =stlDistanceOneVector(*v1);
+	if ( alph < 1.e-4) {
+		return FALSE;
+	}
+	*v1 = stlTwoVectorDivide(*v1,alph);
+	return TRUE;
+}
+FList GridModel::stlGetFacetFromNum(int N)
+{
+	FList f = FHead;
+	for (int i = 1;i <= FaceNum; i ++)
+	{
+		if (f ->FaceNO == N)return f;
+		else if(f->FNext != NULL)f = f->FNext;
+	}
+	return f;
+}
+
+BOOL GridModel::stlCreateSTLTriangle(STLPNT3D p1, STLPNT3D p2, STLPNT3D p3)
+{
+	STLVECTOR v1, v2, nv;
+
+	v1 = stlTwoVectorMinus(p2,p1);
+	if ( !stlVectorNormal(&v1) ) {
+		return FALSE;
+	}
+
+	v2 = stlTwoVectorMinus(p3,p2);
+	if ( !stlVectorNormal(&v2) ) {
+		return FALSE;
+	}
+
+
+	nv = stlTwoVectorProduct(v1,v2);
+	if ( !stlVectorNormal(&nv) ) {
+		STLVECTOR v3 = stlTwoVectorMinus(p1,p3);
+		if ( !stlVectorNormal(&v3) ) {
+			return FALSE;
+		}
+		nv = stlTwoVectorProduct(v3,v1);
+		if ( !stlVectorNormal(&nv) ) {
+			return FALSE;
+		}
+	}
+
+	stlCreateFace(&nv, &p1, &p2, &p3,-1);
+
+	return TRUE;
+}
+
+FList GridModel::stlCreateFace(STLVECTOR *nv, STLPNT3D *p1, STLPNT3D *p2, STLPNT3D *p3,int tNum)
+{
+	FList p, temp;
+
+	if (fabs(p1->x-p2->x) < EPS06 && fabs(p1->y-p2->y) < EPS06 && fabs(p1->z-p2->z) < EPS06 ||
+		fabs(p1->x-p3->x) < EPS06 && fabs(p1->y-p3->y) < EPS06 && fabs(p1->z-p3->z) < EPS06 ||
+		fabs(p3->x-p2->x) < EPS06 && fabs(p3->y-p2->y) < EPS06 && fabs(p3->z-p2->z) < EPS06 ) {
+		return NULL;
+	}
+
+	FaceNum++;
+	p = stlFaceAlloc();
+	//默认p1,p2,p3,nv呈右手法则
+	p->NormalVector.x=nv->x;
+	p->NormalVector.y=nv->y;
+	p->NormalVector.z=nv->z;
+
+	if(tNum == -1)p->FaceNO = FaceNum;
+	else p->FaceNO = tNum;
+
+	p->VertexUsed[0]=stlCreateVertex(&VRoot,p1);
+	p->VertexUsed[1]=stlCreateVertex(&VRoot,p2);
+	p->VertexUsed[2]=stlCreateVertex(&VRoot,p3);
+
+	p->EdgeUsed[0]=stlCreateEdge(p->VertexUsed[0],p->VertexUsed[1]);
+	p->EdgeUsed[1]=stlCreateEdge(p->VertexUsed[1],p->VertexUsed[2]);
+	p->EdgeUsed[2]=stlCreateEdge(p->VertexUsed[2],p->VertexUsed[0]);
+	
+	stlAddFace2Vertex(p,p->VertexUsed[0]);
+	stlAddFace2Vertex(p,p->VertexUsed[1]);
+	stlAddFace2Vertex(p,p->VertexUsed[2]);
+
+	p->EdgeUsed[0]->FaceCircleTag = 0;
+	p->EdgeUsed[1]->FaceCircleTag = 0;
+	p->EdgeUsed[2]->FaceCircleTag = 0;
+
+	stlAddFace2Edge(p,p->EdgeUsed[1]);
+	stlAddFace2Edge(p,p->EdgeUsed[0]);
+	stlAddFace2Edge(p,p->EdgeUsed[2]);
+
+	if(FHead == NULL) {
+		FHead = p;
+	}
+	else {
+		temp = FHead;
+		FHead = p;
+		FHead->FNext = temp;
+	}
+
+	return p;
+}
+
+FList GridModel::stlFaceAlloc()
+{
+	FList p;
+
+	p = (FList)malloc(sizeof(struct FaceList));
+	if (p==NULL) {
+		exit(1);
+	}
+	p->FCircleTag = 0.0;
+	p->FaceNO = -1;
+	p->FNext = NULL;
+	return p;
+}
+
+VList GridModel::stlCreateVertex(VList *root, STLPNT3D *pt)
+{	
+	if(pt->x < stl_xmin) 
+		stl_xmin = (double)(pt->x);
+	if(pt->x > stl_xmax) 
+		stl_xmax = (double)(pt->x);
+	if(pt->y < stl_ymin) 
+		stl_ymin = (double)(pt->y);
+	if(pt->y > stl_ymax) 
+		stl_ymax = (double)(pt->y);
+	if(pt->z < stl_zmin) 
+		stl_zmin = (double)(pt->z);
+	if(pt->z > stl_zmax) 
+		stl_zmax = (double)(pt->z);
+
+	return stlSortTree(pt,root);
+}
+
+VList GridModel::stlSortTree(STLPNT3D *pt, VList *t)  //二叉排序树
+{
+	VList	 p,p1;  //p作为遍历节点使用,p1作为返回指针使用 
+	int	   Bool;
+	if(*t == NULL)  //树为空
+	{
+		*t = p1 = stlVertexAlloc();
+		p1->Coord = *pt; 
+		VerNum++;
+	} 
+	else   //树不为空
+	{
+		p = *t;  //p作为遍历节点使用
+		Bool = 1; 
+		do 
+		{
+			if (pt->z < p->Coord.z)   //如果需要插入的z值小于当前节点的z值,插入左子树
+			{
+				if(p->Lchild != NULL)  //左子树不空
+				{
+					p = p->Lchild;
+				}
+				else 
+				{
+					p1 = stlVertexAlloc();
+					p1->Coord = *pt; 
+					p->Lchild = p1;
+					VerNum++;
+					Bool = 0;
+				}
+			}
+			else if(pt->z > p->Coord.z) 
+			{
+				if(p->Rchild != NULL) 
+				{
+					p = p->Rchild;
+				}
+				else 
+				{
+					p1 = stlVertexAlloc();
+					p1->Coord = *pt; 
+					p->Rchild = p1;
+					VerNum++;
+					Bool = 0;
+				}
+			}
+			else 
+			{
+				if(pt->x == p->Coord.x && pt->y == p->Coord.y)  //完全相同
+				{
+					p1 = p;
+					Bool = 0;
+				}
+				else   //插入左子树
+				{
+					if(p->Lchild != NULL) 
+					{
+						p = p->Lchild;
+					}
+					else 
+					{
+						p1 = stlVertexAlloc();
+						p1->Coord = *pt; 
+						p->Lchild = p1;
+						VerNum++;
+						Bool = 0;
+					}
+				}
+			}
+		}
+		while(Bool);
+	}
+	return p1;
+}
+
+VList GridModel::stlVertexAlloc()
+{
+	VList p;
+	p = (VList)malloc(sizeof(struct VertexList));
+	if (p==NULL) 
+	{
+		exit(1);
+	}
+	p->Lchild = NULL;
+	p->Rchild = NULL;
+	p->FaceUsed = NULL;
+	p->FaceNum = 0;
+	return p;
+}
+EList GridModel::stlCreateEdge(VList p1, VList p2)
+{
+	EList   e, e_new;
+	FRelated fr1, fr2;
+	int    i, j, k;
+	fr1 = p1->FaceUsed;
+	fr2 = p2->FaceUsed;
+	if(fr1 != NULL && fr2 != NULL) 
+	{
+		for(i=0; i< p1->FaceNum; i++) 
+		{
+			fr2 = p2->FaceUsed;
+			for(j=0; j<p2->FaceNum; j++) 
+			{
+				if(fr1->Face == fr2->Face) //如果两个点相关联的面相同
+				{
+					for(k=0; k<3; k++) 
+					{
+						e = fr1->Face->EdgeUsed[k];
+						if (e->VertexUsed[0]==p2 && e->VertexUsed[1]==p1) 
+							return e;
+						else if (e->VertexUsed[0]==p1 && e->VertexUsed[1]==p2) 
+							return e;
+					}
+				}
+				fr2 = fr2->FNext;
+			}
+			fr1 = fr1->FNext;
+		} 
+	}
+	e_new = stlEdgeAlloc();
+	e_new->VertexUsed[0] = p1;
+	e_new->VertexUsed[1] = p2;
+	e = EHead;
+	EHead = e_new;
+	EHead->ENext = e;
+	EdgeNum++;
+	return EHead;
+}
+
+EList GridModel::stlEdgeAlloc()
+{
+	EList p;
+	p = (EList)malloc(sizeof(struct EdgeList));
+	if (p==NULL) 
+	{
+		exit(1);
+	}
+	p->ENext = NULL;
+	p->FaceUsed = NULL;
+	p->FaceNum = 0;
+	p->FaceCircleTag = 0;
+	p->FCircleTag = 0.0;
+	return p;
+}
+
+void GridModel::stlAddFace2Vertex(FList f, VList v)
+{
+	FRelated fr, fnew;
+	fnew = (FRelated)malloc(sizeof(struct FaceRelated));
+	if (fnew==NULL) 
+	{
+		exit(1);
+	}
+	fnew->Face = f;
+	if (v->FaceUsed == NULL) 
+	{
+		v->FaceUsed = fnew;
+		fnew->FNext = NULL;
+	}
+	else 
+	{
+		fr = v->FaceUsed;
+		v->FaceUsed = fnew;
+		fnew->FNext = fr;
+	}
+	(v->FaceNum)++;
+}
+
+void GridModel::stlAddFace2Edge(FList f, EList e)
+{
+	FRelated fr,fnew;
+	fnew = (FRelated)malloc(sizeof(struct FaceRelated));
+	if (fnew==NULL) 
+	{
+		exit(1);
+	}
+	fnew->Face = f;
+	if (e->FaceUsed == NULL) 
+	{
+		e->FaceUsed = fnew;
+		fnew->FNext = NULL;
+	}
+	else 
+	{
+		fr = e->FaceUsed;
+		e->FaceUsed = fnew;
+		fnew->FNext = fr;
+	}
+	(e->FaceNum)++;
+}
+
+BOOL GridModel::stlCompareTwo3DPoint(STLPNT3D p3d1, STLPNT3D p3d2, double epsdis)
+{
+	BOOL equaled = FALSE;
+	if (fabs(p3d1.x - p3d2.x) < epsdis)
+	{
+		if (fabs(p3d1.y - p3d2.y) < epsdis)
+		{
+			if (fabs(p3d1.z - p3d2.z) < epsdis)
+			{
+				equaled = TRUE;
+			}
+		}
+	}
+	return equaled;
+}
+
+double GridModel::stlDistanceTwoPoints(STLPNT3D p1, STLPNT3D p2)
+{
+	double dd = stlDistanceOneVector(stlTwoVectorMinus(p1,p2));
+	return dd;
+}
+
+int GridModel::stlCompareTriangleVertex(STLPNT3D p1, STLPNT3D p2, STLPNT3D p3, STLPNT3D q1, STLPNT3D q2, STLPNT3D q3)
+{
+	STLPNT3D  v1, v2, v3;
+	v1 = stlTwoVectorMinus(p1,q1);
+	v2 = stlTwoVectorMinus(p2,q1);
+	v3 = stlTwoVectorMinus(p3,q1);
+	int  flag = 0;
+	if (stlDistanceOneVector(v1)< 0.1 ) {
+		flag++;
+		v2 = stlTwoVectorMinus(p2,q2);
+		v3 = stlTwoVectorMinus(p3,q3);
+		if ( stlDistanceOneVector(v2)< 0.1 ) {
+			flag++;
+			if ( stlDistanceOneVector(v3) < 0.1 ) {
+				flag++;
+			}
+		}
+		else {
+			v2 = stlTwoVectorMinus(p3,q2);
+			v3 = stlTwoVectorMinus(p2,q3);
+			if ( stlDistanceOneVector(v2) < 0.1 ) {
+				flag++;
+				if ( stlDistanceOneVector(v3)< 0.1 ) {
+					flag++;
+				}
+			}
+		}
+	}
+	else if ( stlDistanceOneVector(v2) < 0.1 ) {
+		flag++;
+		v1 = stlTwoVectorMinus(p1,q2);
+		v3 = stlTwoVectorMinus(p3,q3);
+		if ( stlDistanceOneVector(v1)< 0.1 ) {
+			flag++;
+			if (stlDistanceOneVector(v3) < 0.1 ) {
+				flag++;
+			}
+		}
+		else {
+			v1 = stlTwoVectorMinus(p3,q2);
+			v3 = stlTwoVectorMinus(p1,q3);
+			if (stlDistanceOneVector(v1) < 0.1 ) {
+				flag++;
+				if (stlDistanceOneVector(v3) < 0.1 ) {
+					flag++;
+				}
+			}
+		}
+	}
+	else if (stlDistanceOneVector(v3) < 0.1 ) {
+		flag++;
+		v1 = stlTwoVectorMinus(p1,q2);
+		v2 = stlTwoVectorMinus(p2,q3);
+		if ( stlDistanceOneVector(v2) < 0.1 ) {
+			flag++;
+			if (stlDistanceOneVector(v1) < 0.1 ) {
+				flag++;
+			}
+		}
+		else {
+			v1 = stlTwoVectorMinus(p1,q3);
+			v2 = stlTwoVectorMinus(p2,q2);
+			if (stlDistanceOneVector(v2) < 0.1 ) {
+				flag++;
+				if ( stlDistanceOneVector(v1) < 0.1 ) {
+					flag++;
+				}
+			}
+		}
+	}
+	return flag;
+}
+STLPNT3D GridModel::stlTwoVectorPlus(STLPNT3D p1,STLPNT3D p2)
+{
+	STLPNT3D PTemp = p1;
+	PTemp.x = p1.x + p2.x;	PTemp.y = p1.y + p2.y;	PTemp.z = p1.z + p2.z;
+	return PTemp;
+}
+STLPNT3D GridModel::stlTwoVectorMinus(STLPNT3D p1,STLPNT3D p2)
+{
+	STLPNT3D PTemp = p1;
+	PTemp.x = p1.x - p2.x;	PTemp.y = p1.y - p2.y;	PTemp.z = p1.z - p2.z;
+	return PTemp;
+}
+STLPNT3D GridModel::stlTwoVectorMultiply(STLPNT3D p1,double l1)
+{
+	STLPNT3D PTemp = p1;
+	PTemp.x = p1.x * l1;	PTemp.y = p1.y * l1;	PTemp.z = p1.z * l1;
+	return PTemp;
+}
+STLPNT3D GridModel::stlTwoVectorDivide(STLPNT3D p1,double l1)
+{
+	STLPNT3D PTemp = PBreak;
+	if(fabs( l1 ) > 1.e-9)
+	{
+		PTemp.x = p1.x / l1;	PTemp.y = p1.y / l1;	PTemp.z = p1.z / l1;
+	}
+	return PTemp;
+}
+//计算某向量长度
+double  GridModel::stlDistanceOneVector(STLPNT3D p1)
+{
+	return (sqrt(fabs(p1.x*p1.x +p1.y*p1.y +p1.z*p1.z)));
+}
+void  GridModel::GetInformationFromPath()//从铺放路径获取信息			主要针对TXT文件
+{
+	FILE * ffpem;
+	int NumTemp;
+	int it = 0;
+	char str[300],*ret, *ip;
+	if(fopen_s(&ffpem, PreDataFileName,"r") != 0) {
+		printf("Error: Path file open failed\n");
+		MessageBox(NULL, L"数据文件不存在,请检查！", L"提示", MB_OK);
+		exit(1);
+	}
+label:
+	ret = fgets(str,300,ffpem);
+	if (ret != NULL)
+	{
+		if (strstr(str,"iSag=")!= NULL)
+		{
+			ip = strstr(str,"iSag=")+5;
+			sscanf_s(ip,"%le",&isag);
+			ip = strstr(str,"iAngle=")+5;
+			sscanf_s(ip,"%le",&iangle);
+			ip = strstr(str,"iStep=")+6;
+			sscanf_s(ip,"%le",&istep);
+		}
+		else if (strstr(str,"AngelStart=")!=NULL)
+		{
+			ip = strstr(str,"AngelStart=")+11;
+			sscanf_s(ip,"%le",&Plyangle);
+		}
+		else if (strstr(str,"MeshDATAFile=")!= NULL)
+		{
+			ip = strstr(str,"_DATA")+5;
+			//sprintf_s(FileResultName,DataFileFullPath);
+			//strcat_s(FileResultName,ip);
+			//stlReadStlFile(FileResultName);
+		}
+		else if (strstr(str,"Width=")!= NULL)
+		{
+			ip = strstr(str,"Width=")+6;
+			sscanf_s(ip,"%le",&dval);
+			ip = strstr(str,"Gap=")+4;
+			sscanf_s(ip,"%le",&gapValue);
+			ip = strstr(str,"TapNums=")+8;
+			sscanf_s(ip,"%d",&FiberNum);
+		}
+		else if (strstr(str,"ModelName=")!= NULL)
+		{
+			ip = strstr(str,"ModelName=")+10;
+			//sscanf_s(ip,"%s",&ModelName);
+		}
+		else if (strstr(str,"Element=")!= NULL)
+		{
+			ip = strstr(str,"Element=")+8;
+			sscanf_s(ip,"%s",&PointName);
+		}
+		else if (strstr(str,"TotalNum=")!= NULL)
+		{
+			ip = strstr(str,"TotalNum=")+9;
+			sscanf_s(ip,"%d",&TrailNumDum);
+		}
+		else if (strstr(str,"NormalTag=")!= NULL)
+		{
+			ip = strstr(str,"NormalTag=")+10;
+			sscanf_s(ip,"%d",&stlFaceTag);
+		}
+		else if (strstr(str,"Output Start")!= NULL)
+		{
+			POLHead = new POList[TrailNumDum+1];
+			ret = fgets(str,300,ffpem);
+label2:
+			if (strstr(str,"tiaoshu=")!= NULL)
+			{
+				it++;
+				ip = strstr(str,"tiaoshu=")+8;
+				sscanf_s(ip,"%d",&NumTemp);
+				POLHead[NumTemp] = stlPOLHeadAlloc();
+				POLHead[NumTemp]->TNum = NumTemp;
+				POLHead[NumTemp]->ENum = new int[2];
+				POLHead[NumTemp]->SNum = new int[2];
+				POLHead[NumTemp]->ENum[1] = 0;
+				POLHead[NumTemp]->SNum[1] = 1;
+				ip = strstr(str,"dianshu=")+8;
+				int PointNumTemp;
+				sscanf_s(ip,"%d",&PointNumTemp);
+				POLHead[NumTemp]->PNTrail = new STLPNT3D[PointNumTemp+1];
+				POLHead[NumTemp]->PTrail = new STLPNT3D[PointNumTemp+1];
+				POLHead[NumTemp]->FTrail = new FList[PointNumTemp+1];
+label3:
+				ret = fgets(str,300,ffpem);
+				if (strstr(str,"x=")!= NULL)
+				{
+					int FaceTemp;
+					POLHead[NumTemp]->ENum[1]++;
+					ip = strstr(str,"x=")+2;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]].x);
+					ip = strstr(str,"y=")+2;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]].y);
+					ip = strstr(str,"z=")+2;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]].z);
+					ip = strstr(str,"Nx=")+3;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]].x);
+					ip = strstr(str,"Ny=")+3;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]].y);
+					ip = strstr(str,"Nz=")+3;
+					sscanf_s(ip,"%le",&POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]].z);
+					ip = strstr(str,"FaceNum=")+8;
+					sscanf_s(ip,"%d",&FaceTemp);
+
+					if (POLHead[NumTemp]->ENum[1] > 2 && stlDistanceTwoPoints(POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]],POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]-1]) < 1.e-6)//20210106
+					{
+						POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]-1] = POLHead[NumTemp]->PTrail[POLHead[NumTemp]->ENum[1]] ;
+						POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]-1] = POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]] ;
+						POLHead[NumTemp]->ENum[1]--;
+					}
+					//if(POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]].z < 0) 
+					//	POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]] = stlOPPNormalVector(POLHead[NumTemp]->PNTrail[POLHead[NumTemp]->ENum[1]]);
+					if(FHead != NULL)
+					{
+						POLHead[NumTemp]->FTrail[POLHead[NumTemp]->ENum[1]] = stlGetFacetFromNum(FaceTemp);
+
+					}
+					goto label3;
+				}
+				ret = fgets(str,300,ffpem);
+				goto label2;
+			}
+			if(strstr(str,"Output End") != NULL) {
+				TrailNumDum = it;
+				fclose(ffpem);
+				ffpem = NULL;
+				return;
+			}
+			else {
+				goto label2;
+			}
+		}
+		if(strstr(str,"Output End") != NULL) {
+			TrailNumDum = it;
+			fclose(ffpem);
+			ffpem = NULL;
+			return;
+		}
+		else {
+			goto label;
+		}
+	}
+	if(strstr(str,"Output End") != NULL) {
+		TrailNumDum = it;
+		fclose(ffpem);
+		ffpem = NULL;
+		return;
+	}
+	else {
+		goto label;
+	}
+}
+void GridModel::stlDealInputFile()
+{
+	int flag = 0;
+	FILE *file;
+
+	char buf[300];
+	errno_t err;
+	err = fopen_s(&file, ModelName, "rb");
+	if (strstr(ModelName,"stl") != NULL)
+	{
+		flag = 1;
+		fread(buf, 1, 255,file);
+		char* c;
+		for(int i = 0; i < 255; i ++)
+		{
+			c = strstr(buf + i,"facet normal");  //search substring "facet normal"
+			if (c != NULL) 
+			{
+				flag = 2;   //find "facet normal", then flag =2,stl文件为字符文件
+				break;
+			}
+		}
+	}
+	else if (strstr(ModelName,"dat") != NULL)
+	{
+		flag = 3;
+	}
+	fclose(file);
+	if (flag != 0)
+	{
+		if(flag == 1)
+		{
+			stlReadSTLBinFile(ModelName); //二进制stl文件
+		}
+		else if(flag == 2)
+		{
+			stlReadStlFile(ModelName);   //字符stl文件
+		} 
+		else if(flag == 3)
+		{
+			stlReadDatFile(ModelName);		//有限元网格Dat文件
+		}
+	}
+}
+void GridModel::stlReadFile(char *filename)
+{
+	int flag = 0;
+	FILE *file;
+
+	char buf[300];
+	errno_t err;
+	err = fopen_s(&file, filename, "rb");
+	FileEx = 1;
+	if(err != 0){
+		MessageBox(NULL, L"文件不存在，请检查输入条件。", L"提示", MB_OK);
+		FileEx = 0;
+	}
+	if (strstr(filename,"stl") != NULL)
+	{
+		flag = 1;
+		fread(buf, 1, 255,file);
+		char* c;
+		for(int i = 0; i < 255; i ++)
+		{
+			c = strstr(buf + i,"facet normal");  //search substring "facet normal"
+			if (c != NULL) 
+			{
+				flag = 2;   //find "facet normal", then flag =2,stl文件为字符文件
+				break;
+				file = NULL;
+			}
+		}
+	}
+	else if (strstr(filename,"dat") != NULL)
+	{
+		flag = 3;
+	}
+	fclose(file);
+	file = NULL;
+
+	if (flag != 0)
+	{
+		if(flag == 1)
+		{
+			stlReadSTLBinFile(filename); //二进制stl文件
+		}
+		else if(flag == 2)
+		{
+			stlReadStlFile(filename);   //字符stl文件
+		} 
+		else if(flag == 3)
+		{
+			stlReadDatFile(filename);		//有限元网格Dat文件
+		}
+		TraverseNum = 0;
+		GetNormaVectorOnVertex(VRoot);//获取顶点处法向
+	}
+}
+void GridModel::GetNormaVectorOnVertex(VList p)
+{
+	if (p)
+	{
+		TraverseNum ++;
+		FRelated ff = p->FaceUsed;
+		int FNum = p->FaceNum;
+		FList f = ff->Face;
+		double *dTemp = new double[FNum+1]; 
+		double dEnd = 0;
+		STLPNT3D NormalV = CreateMTIPoint();
+		STLPNT3D NormalV2 = CreateMTIPoint();
+		for (int i =1; i <= FNum;i++)
+		{
+			dTemp[i] = GetDistanceVertexToCoreOfTrangle(p->Coord,ff ->Face);
+			if(dTemp[i] >= 0)
+			{
+				NormalV2 =  stlTwoVectorDivide(ff ->Face->NormalVector,dTemp[i]);
+				NormalV =stlTwoVectorPlus(NormalV,NormalV2);
+				dEnd += 1.0 / dTemp[i];
+			}
+			if(ff->FNext != NULL)
+				ff = ff ->FNext;
+		}
+		if(FNum == 1)
+			dEnd = 1.0;
+		p->NormalVector = stlTwoVectorMultiply(NormalV,dEnd);
+		stlVectorNormal(&(p->NormalVector));
+		if(dTemp != NULL)delete [] dTemp;
+			dTemp = NULL;
+		GetNormaVectorOnVertex(p->Lchild);
+		GetNormaVectorOnVertex(p->Rchild);
+	}
+	else if(TraverseNum >= VerNum-1)
+	{
+		return ;
+	}
+}
+void GridModel::stlReadSTLBinFile(char *filename)
+{
+	FILE *stlfile;
+
+	STLVECTOR nv;
+	STLPNT3D  p1,p2,p3;
+
+	union 
+	{
+		long int i4;
+		char   c[4];
+		float   r;
+	} buf;
+
+	errno_t err;
+
+	err = fopen_s(&stlfile, filename, "rb");
+	if ( err != 0 ) {
+		return;
+	}
+
+	fseek(stlfile,0L,SEEK_SET); //move point to the beginning
+	if(stlfile == NULL) 
+	{
+		printf("Error: STL file open failed\n");
+		exit(1);
+	}
+
+	for(int i=0; i<80; i++)  
+	{
+		char c = getc(stlfile); 
+		printf("%c",c);
+	}
+	printf("\n");
+
+	buf.c[0] = getc(stlfile); //get the total number of the facet
+	buf.c[1] = getc(stlfile);
+	buf.c[2] = getc(stlfile);
+	buf.c[3] = getc(stlfile);
+	NumberTotal = buf.i4;  //total number of facet
+	//NumberTotal = 400000;
+	int step = (int)(NumberTotal/20);
+
+	char str[133];
+	strcpy_s(str,"正在打开模型, 请等待");
+
+	for(int i=0; i<NumberTotal; i++) 
+	{
+		if (i%step == 0) 
+		{
+			strcat_s(str, ".");
+		}
+
+		stlRead4Bytes(stlfile,&buf.c[0]);  //get the vector of the facet    
+		nv.x = buf.r; 
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		nv.y = buf.r; 
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		nv.z = buf.r; 
+
+		stlRead4Bytes(stlfile,&buf.c[0]);  //get the points of the facet    
+		p1.x = buf.r;
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p1.y = buf.r;
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p1.z = buf.r;
+
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p2.x = buf.r;
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p2.y = buf.r;
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p2.z = buf.r;
+
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p3.x = buf.r;
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p3.y = buf.r; 
+		stlRead4Bytes(stlfile,&buf.c[0]);    
+		p3.z = buf.r;
+
+		char c = getc(stlfile); 
+		c = getc(stlfile); 
+
+		STLPNT3D vp1, vp2;
+		vp1 = CreateMTIPoint();
+		vp2 = nv;
+		nv = stlTwoVectorMinus(vp2,vp1);
+		stlVectorNormal(&nv);
+		stlCreateFace(&nv,&p1,&p2,&p3,-1);   //生成一个三角片面,nv为法向量,p为三个顶点坐标
+
+	}
+	fclose(stlfile);
+	stlfile = NULL;
+}
+
+void GridModel::stlRead4Bytes(FILE *stlfile, char *c)
+{
+	c[0] = getc(stlfile);
+	c[1] = getc(stlfile);
+	c[2] = getc(stlfile);
+	c[3] = getc(stlfile);
+}
+void GridModel::stlReadStlFile(char *file)
+{
+	FILE		*stlfile;
+	STLPNT3D  p1,p2,p3,nv;
+	int			tttNum;
+	char    str[80];
+	char    *ret, *ip;
+
+	if(fopen_s(&stlfile, file,"r") != 0) {
+		printf("Error: STL file open failed\n");
+		exit(1);
+	}
+	MeshResulttag = 0;
+label:
+	ret = fgets(str,80,stlfile);
+	if ( ret != NULL ) {
+		if(strstr(str,"##") != NULL)
+		{
+			//ip = strstr(str,"%%");
+			sscanf_s(str,"%s",&MeshResult[MeshResulttag]);
+			MeshResulttag ++;
+		}
+		if ( strstr(str,"facet normal") != NULL ) {
+			ip = strstr(str,"normal") + 6;
+			sscanf_s(ip,"%le %le %le",&nv.x,&nv.y,&nv.z);
+			if (strstr(str,"FaceNum = ") != NULL)
+			{
+				ip = strstr(str,"FaceNum = ") + 10;
+				sscanf_s(ip,"%d",&tttNum);
+			}
+			else
+				tttNum = -1;
+			
+			ret = fgets(str,80,stlfile);
+			ret = fgets(str,80,stlfile);
+			ip = strstr(str,"vertex") + 6;
+			sscanf_s(ip,"%le %le %le",&p1.x,&p1.y,&p1.z);
+			ret = fgets(str,80,stlfile);
+			ip = strstr(str,"vertex") + 6;
+			sscanf_s(ip,"%le %le %le",&p2.x,&p2.y,&p2.z);
+			ret = fgets(str,80,stlfile);
+			ip = strstr(str,"vertex") + 6;
+			sscanf_s(ip,"%le %le %le",&p3.x,&p3.y,&p3.z);
+
+			stlCreateFace(&nv,&p1,&p2,&p3,tttNum);    
+			goto label;
+		}
+		else if(strstr(str,"endsolid") != NULL) {
+			fclose(stlfile);
+			stlfile = NULL;
+			return;
+		}
+		else {
+			goto label;
+		}
+	}
+	stlfile = NULL;
+}
+void GridModel::stlReadDatFile(char *file)
+{
+	FILE		*datfile;
+	STLPNT3D  p1,p2,p3,nv;
+	char    str[80];
+	char    *ret,*ip;
+	int     temp[5],temp1;
+	STLPNT3D *PTemp;
+	int i = 1;
+
+	//获取点数,确定点数组大小
+	if(fopen_s(&datfile, file,"r") != 0) {
+		printf("Error: dat file open failed\n");
+		exit(1);
+	}
+label2:	
+	ret = fgets(str,80,datfile);
+	if ( ret != NULL ) {
+		if ( strstr(str,"GRID*") != NULL ) {
+			ret = fgets(str,80,datfile);
+			ret = fgets(str,80,datfile);
+			i ++;
+			goto label2;
+		}
+		else if (strstr(str,"ELEMENTS") != NULL )
+			fclose(datfile);
+		else 
+			goto label2;	
+	}
+
+	fclose(datfile);
+
+	PTemp = new STLPNT3D[i];
+	
+	//重新打开文档,开始拓扑关系建立
+	if(fopen_s(&datfile, file,"r") != 0) {
+		printf("Error: dat file open failed\n");
+		exit(1);
+	}
+	
+	i = 1;
+label1:
+	ret = fgets(str,80,datfile);
+	if ( ret != NULL ) {
+		if ( strstr(str,"GRID*") != NULL ) {
+
+			ip = strstr(str,"GRID*") + 5;
+			sscanf_s(ip,"%d %le %le",&temp1,&p1.x,&p1.y);
+			ret = fgets(str,80,datfile);
+			ret = fgets(str,80,datfile);
+ 			sscanf_s(ip,"%d %le",&temp1,&p1.z);
+			PTemp[i] = p1;
+
+ 			i ++;
+
+			goto label1;
+
+			}
+			else if (strstr(str,"ELEMENTS") != NULL )
+				goto labell;
+			else
+				goto label1;
+		}	
+	
+labell:
+	ret = fgets(str,80,datfile);
+	if (ret != NULL)
+	{
+		if (strstr(str,"CTRIA3") != NULL)//从面开始拓扑入手
+		{
+			ip =strstr(str,"CTRIA3") + 6;
+			sscanf_s(ip,"%d %d %d %d %d",&temp[0],&temp[1],&temp[2],&temp[3],&temp[4]);
+
+			p1 = PTemp[temp[2]];
+			p2 = PTemp[temp[3]];
+			p3 = PTemp[temp[4]];
+
+			STLPNT3D l1,l2;
+			l1 = stlDistanceVectorTwoPoint(p1,p2);
+			l2 = stlDistanceVectorTwoPoint(p1,p3);
+			nv = stlTwoVectorProduct(l1,l2);
+			stlVectorNormal(&nv);
+			nv = stlOPPNormalVector(nv);
+			stlCreateFace(&nv,&p1,&p2,&p3,-1); 
+			goto labell;
+		}
+		else if(strstr(str,"ENDDATA") != NULL) {
+			fclose(datfile);
+
+			delete PTemp;
+      PTemp = NULL;
+
+			return;
+		}
+		else {
+			goto labell;
+		}
+	}
+}

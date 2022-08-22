@@ -1,0 +1,1230 @@
+﻿生成启动时间为 2022/3/6 9:02:36。
+     1>项目“D:\CLAPACK\Testing\LIN\xlintstc.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/TESTING/LIN/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"xlintstc.dir\Debug\\" /Fd"xlintstc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaesm.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alareq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasum.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasvm.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\icopy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ilaenv.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\xlaenv.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgt.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhe.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchklq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpo.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkps.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkq3.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkql.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqr.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkrq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktr.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhe.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrgt.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrhe.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrlq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrls.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrps.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrql.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrqp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrqr.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrrq.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrsy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrtr.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrtz.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrvx.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgelqs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgeqls.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgeqrs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgerqs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\chet01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\chpt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\claipd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\claptm.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clarhs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb4.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb5.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatsp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatsy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clavhe.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clavhp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clavsp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clavsy.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpst01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqpt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt11.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt12.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\csbmv.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\sget06.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgennd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrge.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpo.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\cerrpo.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\slaord.c" "D:\clapack-3.2.1-CMAKE\INSTALL\winsecond.c"
+         aladhd.c
+         alaerh.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c(316): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         alaesm.c
+         alahd.c
+         alareq.c
+         alasum.c
+         alasvm.c
+         chkxer.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c(37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         icopy.c
+         ilaenv.c
+         xlaenv.c
+         xerbla.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c(58): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         cchkaa.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c(435): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c(818): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c(823): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c(828): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkaa.c(1421): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkeq.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(127): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(134): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(168): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(169): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(172): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(173): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(177): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(182): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(183): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(190): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(191): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(288): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(291): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(297): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(298): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(306): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(309): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(315): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(316): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(320): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(321): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(330): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(331): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(337): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(338): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(350): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(351): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(357): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(358): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(402): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(403): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(406): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(407): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(412): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(413): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(456): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(457): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(460): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(461): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(466): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(467): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(499): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(500): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(503): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(504): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(509): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(510): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(562): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(563): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(566): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(567): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(572): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(573): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(618): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(619): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(622): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(623): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(628): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkeq.c(629): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkgb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c(613): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c(615): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c(634): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c(645): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgb.c(816): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkge.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(435): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(439): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(441): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(453): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(454): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkge.c(639): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkgt.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgt.c(452): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgt.c(474): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgt.c(475): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkgt.c(511): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkhe.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhe.c(628): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhe.c(641): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkhp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhp.c(603): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkhp.c(615): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchklq.c
+         正在生成代码...
+         正在编译...
+         cchkpb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpb.c(541): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpb.c(543): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpb.c(662): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkpo.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpo.c(551): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpo.c(564): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkps.c
+         cchkpp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpp.c(520): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpp.c(532): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkpt.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(333): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(335): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(337): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(341): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(471): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(490): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(491): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(496): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkpt.c(621): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkq3.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkq3.c(219): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkq3.c(335): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkq3.c(340): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkq3.c(345): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkql.c
+         cchkqp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqp.c(202): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqp.c(310): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqp.c(315): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchkqp.c(320): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchkqr.c
+         cchkrq.c
+         cchksp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksp.c(602): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksp.c(614): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchksy.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksy.c(634): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchksy.c(647): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchktb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktb.c(366): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktb.c(368): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktb.c(378): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktb.c(380): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchktp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktp.c(331): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktp.c(332): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchktr.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktr.c(350): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktr.c(352): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cchktz.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(206): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(282): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(287): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(292): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(333): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(338): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cchktz.c(343): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvgt.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(419): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(420): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(445): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(446): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(476): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(477): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgt.c(687): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvhe.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhe.c(429): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhe.c(443): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhe.c(636): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvhp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhp.c(437): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhp.c(449): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvhp.c(642): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvls.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(293): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(297): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(427): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(434): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(518): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(536): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(547): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(634): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(653): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(664): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(699): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(719): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(728): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(762): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(782): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvls.c(791): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         cdrvpb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpb.c(539): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpb.c(557): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpb.c(753): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvpp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpp.c(453): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpp.c(466): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpp.c(648): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvpt.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(326): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(328): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(330): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(334): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(448): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(477): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(478): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpt.c(634): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvsp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsp.c(440): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsp.c(452): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsp.c(645): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvsy.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsy.c(437): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsy.c(451): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvsy.c(644): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cerrgt.c
+         cerrhe.c
+         cerrlq.c
+         cerrls.c
+         cerrps.c
+         cerrql.c
+         cerrqp.c
+         cerrqr.c
+         cerrrq.c
+         cerrsy.c
+         cerrtr.c
+         cerrtz.c
+         cerrvx.c
+         cgbt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c(139): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c(153): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c(154): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c(227): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt01.c(228): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgbt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(160): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(161): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(191): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt02.c(198): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         cgbt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(185): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(186): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(204): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(204): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(205): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(216): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(216): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(217): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(234): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(252): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(252): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(263): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(265): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(265): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(278): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(280): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(280): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(287): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(293): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgbt05.c(297): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgelqs.c
+         cgeqls.c
+         cgeqrs.c
+         cgerqs.c
+         cget01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget01.c(133): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget01.c(134): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget01.c(200): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cget02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c(153): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c(172): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c(173): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget02.c(179): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cget03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget03.c(126): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget03.c(127): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget03.c(128): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget03.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cget04.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(123): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(139): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(139): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(150): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(150): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(151): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget04.c(161): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cget07.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(177): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(178): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(194): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(194): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(195): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(206): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(206): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(207): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(224): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(243): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(243): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(250): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(252): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(252): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(261): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(263): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(263): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(270): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(276): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cget07.c(280): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgtt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt01.c(136): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt01.c(257): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt01.c(263): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgtt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(144): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(149): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(162): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(163): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt02.c(169): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgtt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(178): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(179): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(195): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(195): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(196): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(207): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(207): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(208): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(225): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(244): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(245): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(247): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(247): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(253): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(254): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(256): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(257): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(259): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(259): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(270): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(272): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(273): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(275): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(277): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(278): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(280): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(281): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(282): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(291): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(292): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(294): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(295): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(297): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(297): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(298): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(305): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(306): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(308): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(308): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(314): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(315): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(317): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(318): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(320): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(320): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(331): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(333): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(334): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(336): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(338): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(339): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(341): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(342): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(343): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(352): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(353): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(355): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(356): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(358): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(358): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(359): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(364): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cgtt05.c(368): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         chet01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chet01.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chet01.c(148): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chet01.c(224): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         chpt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chpt01.c(136): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chpt01.c(137): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chpt01.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         claipd.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\claipd.c(88): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         claptm.c
+         clarhs.c
+         clatb4.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb4.c(122): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb4.c(124): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb4.c(125): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clatb5.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb5.c(113): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb5.c(115): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatb5.c(116): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         clatsp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatsp.c(102): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         clatsy.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clatsy.c(106): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         clattb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(177): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(267): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(318): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(363): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(386): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(390): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(397): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(468): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(469): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(668): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(909): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattb.c(910): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clattp.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(181): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(182): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(381): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(388): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(397): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(399): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(639): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(640): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(652): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(827): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(830): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(1031): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(1032): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(1044): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattp.c(1047): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clattr.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(184): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(185): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(370): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(374): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(381): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(390): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(392): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(558): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(559): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(571): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(742): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(745): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(935): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(936): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(948): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clattr.c(951): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clavhe.c
+         clavhp.c
+         clavsp.c
+         clavsy.c
+         clqt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt01.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt01.c(202): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt01.c(203): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt01.c(218): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clqt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt02.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt02.c(193): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt02.c(208): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         clqt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt03.c(177): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt03.c(209): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt03.c(246): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\clqt03.c(247): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         cpbt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt01.c(146): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt01.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt01.c(276): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpbt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c(143): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c(144): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c(167): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt02.c(173): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpbt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(183): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(184): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(202): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(202): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(203): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(214): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(214): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(215): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(232): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(250): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(250): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(259): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(261): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(261): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(267): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(268): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(276): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(278): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(278): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(289): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(291): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(291): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(297): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(298): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(306): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(308): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(308): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(315): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(321): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpbt05.c(325): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpot01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot01.c(135): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot01.c(136): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot01.c(249): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpot02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c(140): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c(141): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c(159): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c(160): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpot03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot03.c(143): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot03.c(144): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot03.c(145): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot03.c(198): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpot05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(179): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(180): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(195): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(195): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(196): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(207): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(207): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(208): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(225): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(243): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(243): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(250): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(252): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(252): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(258): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(259): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(265): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(267): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(267): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(276): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(278): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(278): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(284): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(285): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(291): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(293): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(293): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(300): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(306): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpot05.c(310): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cpst01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpst01.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpst01.c(153): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cpst01.c(345): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         cppt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt01.c(124): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt01.c(125): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt01.c(260): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cppt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c(135): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c(136): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c(158): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c(159): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt02.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cppt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt03.c(130): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt03.c(131): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt03.c(132): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt03.c(245): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cppt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(172): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(173): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(188): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(188): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(189): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(200): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(200): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(201): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(218): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(236): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(236): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(244): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(245): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(246): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(252): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(253): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(260): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(261): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(262): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(273): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(274): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(275): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(282): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(283): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(289): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(291): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(291): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(298): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(304): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cppt05.c(308): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cptt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(104): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(136): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(139): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(140): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(142): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(143): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(144): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(149): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(150): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(153): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt01.c(154): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cptt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c(130): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c(134): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c(151): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt02.c(158): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cptt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(181): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(181): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(182): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(193): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(193): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(194): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(211): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(231): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(232): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(232): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(240): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(241): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(242): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(244): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(244): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(258): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(259): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(261): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(262): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(264): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(266): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(266): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(267): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(278): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(279): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(281): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(282): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(282): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(283): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(287): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cptt05.c(291): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqlt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt01.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt01.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt01.c(232): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt01.c(247): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqlt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt02.c(175): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt02.c(214): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt02.c(216): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt02.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqlt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt03.c(179): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt03.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt03.c(271): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqlt03.c(272): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         cqpt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqpt01.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqpt01.c(188): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt01.c(164): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt01.c(198): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt01.c(199): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt01.c(214): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt02.c(191): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt02.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt02.c(207): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt03.c(178): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt03.c(209): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt03.c(246): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt03.c(247): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         cqrt11.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt11.c(154): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt12.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt12.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt12.c(161): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt12.c(167): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt12.c(218): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt13.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(125): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(128): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(139): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(140): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(143): warning C4244: “/=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt13.c(161): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt14.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(168): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(182): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(188): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(207): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(208): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(251): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(252): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt14.c(262): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt15.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(173): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(203): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(205): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(216): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(267): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(296): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt15.c(298): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cqrt16.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(143): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(167): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(168): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt16.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         cqrt17.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(188): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(189): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(198): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(212): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(222): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(227): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cqrt17.c(235): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         crqt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt01.c(164): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt01.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt01.c(232): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt01.c(247): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         crqt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt02.c(175): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt02.c(213): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt02.c(215): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt02.c(230): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         crqt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt03.c(180): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt03.c(232): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt03.c(272): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crqt03.c(273): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         crzt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt01.c(129): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt01.c(162): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt01.c(164): warning C4244: “/=”: 从“doublereal”转换到“real”，可能丢失数据
+         crzt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\crzt02.c(150): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         csbmv.c
+         cspt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt01.c(132): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt01.c(133): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt01.c(189): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cspt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c(136): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c(137): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c(159): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c(160): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cspt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt03.c(125): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt03.c(126): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt03.c(127): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cspt03.c(339): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         csyt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt01.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt01.c(143): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt01.c(195): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         csyt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c(140): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c(141): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c(159): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c(160): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt02.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         csyt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt03.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt03.c(143): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt03.c(144): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\csyt03.c(197): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctbt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(168): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(171): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(193): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt02.c(199): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctbt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(176): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(177): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(189): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(190): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(198): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(199): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(208): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(222): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(223): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(232): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(234): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt03.c(253): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctbt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(197): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(198): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(218): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(218): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(219): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(230): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(230): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(231): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(248): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(270): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(270): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(281): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(282): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(283): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(289): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(289): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(295): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(295): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(304): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(306): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(307): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(320): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(322): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(323): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(329): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(329): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(335): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(335): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(344): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(346): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(347): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(355): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(361): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt05.c(365): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctbt06.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(115): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(116): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(117): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(147): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(149): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(152): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctbt06.c(153): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctpt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt01.c(125): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt01.c(126): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt01.c(127): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt01.c(189): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctpt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(158): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(160): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(180): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(181): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt02.c(187): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctpt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(167): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(168): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(180): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(181): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(190): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(191): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(201): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(215): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(216): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(224): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(226): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt03.c(245): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         ctpt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(187): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(188): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(205): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(205): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(206): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(217): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(217): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(218): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(235): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(257): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(257): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(266): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(268): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(268): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(274): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(274): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(281): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(281): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(289): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(291): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(291): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(304): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(306): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(306): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(313): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(313): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(320): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(320): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(327): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(329): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(329): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(337): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(343): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt05.c(347): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctpt06.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(105): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(106): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(107): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(137): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(138): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(141): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctpt06.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctrt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt01.c(137): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt01.c(138): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt01.c(140): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt01.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctrt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(163): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(165): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(170): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(185): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(186): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt02.c(192): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctrt03.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(174): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(175): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(186): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(187): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(195): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(209): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(210): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(218): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(220): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt03.c(239): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctrt05.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(193): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(194): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(211): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(211): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(212): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(223): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(223): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(224): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(241): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(263): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(263): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(271): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(273): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(273): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(279): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(279): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(285): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(285): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(292): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(294): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(294): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(305): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(307): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(307): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(313): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(313): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(319): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(319): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(326): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(328): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(328): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(336): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(342): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt05.c(346): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctrt06.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(113): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(114): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(115): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(145): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(146): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(149): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctrt06.c(150): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctzt01.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt01.c(129): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt01.c(166): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt01.c(168): warning C4244: “/=”: 从“doublereal”转换到“real”，可能丢失数据
+         ctzt02.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\ctzt02.c(159): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         sget06.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\sget06.c(61): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\sget06.c(64): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cgennd.c
+         cdrvge.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(455): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(457): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(472): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(481): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(635): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(640): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(644): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(649): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(656): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvge.c(711): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cdrvgb.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(586): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(588): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(608): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(619): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(805): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(806): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(818): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(827): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(833): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(840): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvgb.c(898): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cerrge.c
+         cdrvpo.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpo.c(453): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpo.c(467): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\cdrvpo.c(649): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         cerrpo.c
+         slaord.c
+         winsecond.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CLAPACK\Testing\LIN\Debug\xlintstc.exe" /INCREMENTAL /NOLOGO ..\MATGEN\Debug\tmglib.lib ..\..\SRC\Debug\lapack.lib ..\..\BLAS\SRC\Debug\blas.lib ..\..\F2CLIBS\libf2c\Debug\libf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/CLAPACK/Testing/LIN/Debug/xlintstc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CLAPACK/Testing/LIN/Debug/xlintstc.lib" /MACHINE:X64  /machine:x64 xlintstc.dir\Debug\aladhd.obj
+         xlintstc.dir\Debug\alaerh.obj
+         xlintstc.dir\Debug\alaesm.obj
+         xlintstc.dir\Debug\alahd.obj
+         xlintstc.dir\Debug\alareq.obj
+         xlintstc.dir\Debug\alasum.obj
+         xlintstc.dir\Debug\alasvm.obj
+         xlintstc.dir\Debug\chkxer.obj
+         xlintstc.dir\Debug\icopy.obj
+         xlintstc.dir\Debug\ilaenv.obj
+         xlintstc.dir\Debug\xlaenv.obj
+         xlintstc.dir\Debug\xerbla.obj
+         xlintstc.dir\Debug\cchkaa.obj
+         xlintstc.dir\Debug\cchkeq.obj
+         xlintstc.dir\Debug\cchkgb.obj
+         xlintstc.dir\Debug\cchkge.obj
+         xlintstc.dir\Debug\cchkgt.obj
+         xlintstc.dir\Debug\cchkhe.obj
+         xlintstc.dir\Debug\cchkhp.obj
+         xlintstc.dir\Debug\cchklq.obj
+         xlintstc.dir\Debug\cchkpb.obj
+         xlintstc.dir\Debug\cchkpo.obj
+         xlintstc.dir\Debug\cchkps.obj
+         xlintstc.dir\Debug\cchkpp.obj
+         xlintstc.dir\Debug\cchkpt.obj
+         xlintstc.dir\Debug\cchkq3.obj
+         xlintstc.dir\Debug\cchkql.obj
+         xlintstc.dir\Debug\cchkqp.obj
+         xlintstc.dir\Debug\cchkqr.obj
+         xlintstc.dir\Debug\cchkrq.obj
+         xlintstc.dir\Debug\cchksp.obj
+         xlintstc.dir\Debug\cchksy.obj
+         xlintstc.dir\Debug\cchktb.obj
+         xlintstc.dir\Debug\cchktp.obj
+         xlintstc.dir\Debug\cchktr.obj
+         xlintstc.dir\Debug\cchktz.obj
+         xlintstc.dir\Debug\cdrvgt.obj
+         xlintstc.dir\Debug\cdrvhe.obj
+         xlintstc.dir\Debug\cdrvhp.obj
+         xlintstc.dir\Debug\cdrvls.obj
+         xlintstc.dir\Debug\cdrvpb.obj
+         xlintstc.dir\Debug\cdrvpp.obj
+         xlintstc.dir\Debug\cdrvpt.obj
+         xlintstc.dir\Debug\cdrvsp.obj
+         xlintstc.dir\Debug\cdrvsy.obj
+         xlintstc.dir\Debug\cerrgt.obj
+         xlintstc.dir\Debug\cerrhe.obj
+         xlintstc.dir\Debug\cerrlq.obj
+         xlintstc.dir\Debug\cerrls.obj
+         xlintstc.dir\Debug\cerrps.obj
+         xlintstc.dir\Debug\cerrql.obj
+         xlintstc.dir\Debug\cerrqp.obj
+         xlintstc.dir\Debug\cerrqr.obj
+         xlintstc.dir\Debug\cerrrq.obj
+         xlintstc.dir\Debug\cerrsy.obj
+         xlintstc.dir\Debug\cerrtr.obj
+         xlintstc.dir\Debug\cerrtz.obj
+         xlintstc.dir\Debug\cerrvx.obj
+         xlintstc.dir\Debug\cgbt01.obj
+         xlintstc.dir\Debug\cgbt02.obj
+         xlintstc.dir\Debug\cgbt05.obj
+         xlintstc.dir\Debug\cgelqs.obj
+         xlintstc.dir\Debug\cgeqls.obj
+         xlintstc.dir\Debug\cgeqrs.obj
+         xlintstc.dir\Debug\cgerqs.obj
+         xlintstc.dir\Debug\cget01.obj
+         xlintstc.dir\Debug\cget02.obj
+         xlintstc.dir\Debug\cget03.obj
+         xlintstc.dir\Debug\cget04.obj
+         xlintstc.dir\Debug\cget07.obj
+         xlintstc.dir\Debug\cgtt01.obj
+         xlintstc.dir\Debug\cgtt02.obj
+         xlintstc.dir\Debug\cgtt05.obj
+         xlintstc.dir\Debug\chet01.obj
+         xlintstc.dir\Debug\chpt01.obj
+         xlintstc.dir\Debug\claipd.obj
+         xlintstc.dir\Debug\claptm.obj
+         xlintstc.dir\Debug\clarhs.obj
+         xlintstc.dir\Debug\clatb4.obj
+         xlintstc.dir\Debug\clatb5.obj
+         xlintstc.dir\Debug\clatsp.obj
+         xlintstc.dir\Debug\clatsy.obj
+         xlintstc.dir\Debug\clattb.obj
+         xlintstc.dir\Debug\clattp.obj
+         xlintstc.dir\Debug\clattr.obj
+         xlintstc.dir\Debug\clavhe.obj
+         xlintstc.dir\Debug\clavhp.obj
+         xlintstc.dir\Debug\clavsp.obj
+         xlintstc.dir\Debug\clavsy.obj
+         xlintstc.dir\Debug\clqt01.obj
+         xlintstc.dir\Debug\clqt02.obj
+         xlintstc.dir\Debug\clqt03.obj
+         xlintstc.dir\Debug\cpbt01.obj
+         xlintstc.dir\Debug\cpbt02.obj
+         xlintstc.dir\Debug\cpbt05.obj
+         xlintstc.dir\Debug\cpot01.obj
+         xlintstc.dir\Debug\cpot02.obj
+         xlintstc.dir\Debug\cpot03.obj
+         xlintstc.dir\Debug\cpot05.obj
+         xlintstc.dir\Debug\cpst01.obj
+         xlintstc.dir\Debug\cppt01.obj
+         xlintstc.dir\Debug\cppt02.obj
+         xlintstc.dir\Debug\cppt03.obj
+         xlintstc.dir\Debug\cppt05.obj
+         xlintstc.dir\Debug\cptt01.obj
+         xlintstc.dir\Debug\cptt02.obj
+         xlintstc.dir\Debug\cptt05.obj
+         xlintstc.dir\Debug\cqlt01.obj
+         xlintstc.dir\Debug\cqlt02.obj
+         xlintstc.dir\Debug\cqlt03.obj
+         xlintstc.dir\Debug\cqpt01.obj
+         xlintstc.dir\Debug\cqrt01.obj
+         xlintstc.dir\Debug\cqrt02.obj
+         xlintstc.dir\Debug\cqrt03.obj
+         xlintstc.dir\Debug\cqrt11.obj
+         xlintstc.dir\Debug\cqrt12.obj
+         xlintstc.dir\Debug\cqrt13.obj
+         xlintstc.dir\Debug\cqrt14.obj
+         xlintstc.dir\Debug\cqrt15.obj
+         xlintstc.dir\Debug\cqrt16.obj
+         xlintstc.dir\Debug\cqrt17.obj
+         xlintstc.dir\Debug\crqt01.obj
+         xlintstc.dir\Debug\crqt02.obj
+         xlintstc.dir\Debug\crqt03.obj
+         xlintstc.dir\Debug\crzt01.obj
+         xlintstc.dir\Debug\crzt02.obj
+         xlintstc.dir\Debug\csbmv.obj
+         xlintstc.dir\Debug\cspt01.obj
+         xlintstc.dir\Debug\cspt02.obj
+         xlintstc.dir\Debug\cspt03.obj
+         xlintstc.dir\Debug\csyt01.obj
+         xlintstc.dir\Debug\csyt02.obj
+         xlintstc.dir\Debug\csyt03.obj
+         xlintstc.dir\Debug\ctbt02.obj
+         xlintstc.dir\Debug\ctbt03.obj
+         xlintstc.dir\Debug\ctbt05.obj
+         xlintstc.dir\Debug\ctbt06.obj
+         xlintstc.dir\Debug\ctpt01.obj
+         xlintstc.dir\Debug\ctpt02.obj
+         xlintstc.dir\Debug\ctpt03.obj
+         xlintstc.dir\Debug\ctpt05.obj
+         xlintstc.dir\Debug\ctpt06.obj
+         xlintstc.dir\Debug\ctrt01.obj
+         xlintstc.dir\Debug\ctrt02.obj
+         xlintstc.dir\Debug\ctrt03.obj
+         xlintstc.dir\Debug\ctrt05.obj
+         xlintstc.dir\Debug\ctrt06.obj
+         xlintstc.dir\Debug\ctzt01.obj
+         xlintstc.dir\Debug\ctzt02.obj
+         xlintstc.dir\Debug\sget06.obj
+         xlintstc.dir\Debug\cgennd.obj
+         xlintstc.dir\Debug\cdrvge.obj
+         xlintstc.dir\Debug\cdrvgb.obj
+         xlintstc.dir\Debug\cerrge.obj
+         xlintstc.dir\Debug\cdrvpo.obj
+         xlintstc.dir\Debug\cerrpo.obj
+         xlintstc.dir\Debug\slaord.obj
+         xlintstc.dir\Debug\winsecond.obj
+         xlintstc.vcxproj -> D:\CLAPACK\Testing\LIN\Debug\xlintstc.exe
+     1>已完成生成项目“D:\CLAPACK\Testing\LIN\xlintstc.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.11

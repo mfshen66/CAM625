@@ -1,0 +1,1744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1895A8B8-824E-3D40-9B6D-CC90E88B3F25}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lapack</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\SRC\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lapack.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lapack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\SRC\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lapack.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lapack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\SRC\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lapack.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lapack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\SRC\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lapack.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lapack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\SRC\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbbrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgebrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgecon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgees.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgegs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgehd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgehrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgels.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelss.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgelsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeql2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqlf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqp3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqpf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgerqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesdd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggbak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggbal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgges.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggglm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgghrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgglse.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggsvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sggsvp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgtts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shgeqz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shsein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\shseqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slabrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slag2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slags2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagtm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slahr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaic1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaln2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slals0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slalsa.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slalsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slangb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slange.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slangt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanhs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slantr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapll.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqgb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqr5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaqtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slar1v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slar2v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaslr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaslc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarft.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slargv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slartv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarfp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarzb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarzt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaswp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasyf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatbs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatdf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slatzm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slauu2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slauum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sopgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sopmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorg2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorg2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorghr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgl2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorglq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorm2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorm2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormhr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sorml2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormlq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sormtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbstf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spocon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spoequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sporfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sposvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spotrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spstrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spstf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sppsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sptts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\srscl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssbtrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sspsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstegr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssycon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygs2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssygvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssysv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssysvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssytrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgex2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsja.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stgsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strti2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strtri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stzrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stzrzf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstemr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slansf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spftrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssfrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stfttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\stpttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\strttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgejsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgesvj.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgsvj0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgsvj1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgeequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssyequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spoequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sgbequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbbrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgebrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgecon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgees.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgegs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgehd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgehrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgels.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelss.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgelsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeql2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqlf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqp3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqpf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgerqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesdd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggbak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggbal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgges.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggglm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgghrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgglse.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggsvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dggsvp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgtts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhgeqz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhsein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dhseqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlabrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlag2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlags2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagtm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlahr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaic1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaln2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlals0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlalsa.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlalsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlangb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlange.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlangt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanhs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlantr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapll.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqgb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqr5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaqtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlar1v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlar2v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladlr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladlc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarft.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlargv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlartv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarfp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarzb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarzt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaswp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasyf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatbs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatdf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlatzm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlauu2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlauum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dopgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dopmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorg2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorg2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorghr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgl2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorglq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorm2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorm2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormhr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dorml2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormlq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dormtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbstf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpocon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpoequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dporfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dposvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpotrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpstrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpstf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dppsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dptts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\drscl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsbtrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dspsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstegr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsycon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygs2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsygvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsysv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsysvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsytrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgex2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsja.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtgsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrti2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrtri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtzrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtzrzf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstemr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlag2s.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slag2d.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlat2s.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlansf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpftrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsfrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtfttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtpttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dtrttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgejsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgesvj.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgsvj0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgsvj1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgeequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsyequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpoequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dgbequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cbdsqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbbrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgebrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgecon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgees.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgegs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgehd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgehrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgels.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelss.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgelsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeql2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqlf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqp3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqpf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgerqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesdd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggbak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggbal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgges.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggglm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgghrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgglse.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggsvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cggsvp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgtts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chbtrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\checon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegs2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chegvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cherfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chgeqz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chpsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chsein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chseqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clabrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacrm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clacrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cladiv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claed8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claesy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claev2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clags2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clagtm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahef.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clahr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claic1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clals0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clalsa.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clalsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clangb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clange.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clangt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanht.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clansy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clantr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clapll.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clapmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarcm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqgb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqhp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqr5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claqsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clar1v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clar2v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaclr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaclc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarft.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarfx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clargv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarnv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarrv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clartg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clartv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarzb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clarzt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clascl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claset.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clasr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\classq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\claswp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clasyf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatbs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatdf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clatzm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clauu2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clauum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbstf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpocon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpoequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cporfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cposvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpotrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpstrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpstf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cppsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cptts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\crot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cspsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csrscl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstedc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstegr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csycon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csymv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csysv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csysvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csytrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgex2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsja.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctgsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrti2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrtri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctzrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctzrzf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cung2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cung2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunghr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungl2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunglq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cungtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunm2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunm2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmhr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunml2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmlq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cunmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cupgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cupmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\icmax1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\scsum1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cstemr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chfrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clanhf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpftrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctfttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctpttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ctrttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgeequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cgbequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\csyequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cpoequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\cheequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zbdsqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbbrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgebrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgecon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgees.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgegs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgehd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgehrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgels.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelss.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgelsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeql2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqlf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqp3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqpf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgerqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesdd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetc2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggbak.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggbal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgges.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggesx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggglm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgghrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgglse.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggqrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggsvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zggsvp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgtts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhbtrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhecon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegs2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhegvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zherfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhesvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhetrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhgeqz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpev.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpevd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpevx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgvd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpgvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhpsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhsein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhseqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlabrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacgv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacrm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlacrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zladiv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaed8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaesy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaev2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlags2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlagtm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahef.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlahr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaic1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlals0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlalsa.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlalsd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlangb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlange.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlangt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanht.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlansy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlantr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlapll.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlapmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqgb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqhp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqp2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqr5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaqsy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlar1v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlar2v.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilazlr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilazlc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarcm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarft.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarfx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlargv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarnv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarrv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlartg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlartv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarzb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlarzt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlascl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaset.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlasr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlassq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlaswp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlasyf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatbs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatdf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatps.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlatzm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlauu2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlauum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbstf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpocon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpoequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zporfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zposvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpotrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpstrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpstf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppequ.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zppsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpttrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zptts2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zrot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zspsvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zdrscl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstedc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstegr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstein.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsycon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsymv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsysv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsysvx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytf2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsytrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztbtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgex2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsja.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztgsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztprfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztptri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztptrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrcon.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrevc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrexc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrrfs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrsyl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrti2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrtri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrtrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztzrqf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztzrzf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zung2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zung2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunghr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungl2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunglq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zungtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunm2l.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunm2r.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmbr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmhr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunml2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmlq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmql.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmr3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmrq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmrz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zunmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zupgtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zupmtr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\izmax1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dzsum1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zstemr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zcgesv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zcposv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlag2c.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\clag2z.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlat2c.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zhfrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zlanhf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpftrs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztftri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztfttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztpttr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrttf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ztrttp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgeequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zgbequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zsyequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zpoequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\zheequb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sbdsdc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sbdsqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sdisna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slabad.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slacpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sladiv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slae2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaebz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaed9.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaeda.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaev2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagtf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slagts.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slamrg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slanst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slapy3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarnv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarra.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarre.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrj.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slarrr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaneg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slartg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaruv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slas2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slascl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasd8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasda.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasdq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasdt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaset.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasq6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slassq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slasv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\spttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstebz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sstedc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ssterf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\slaisnan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\sisnan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\slamch.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\winsecond.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dbdsdc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dbdsqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ddisna.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlabad.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlacpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dladiv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlae2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaebz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaed9.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaeda.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaev2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagtf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlagts.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlamrg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlanst.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapy2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlapy3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarnv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarra.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrb.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarre.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrj.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlarrr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaneg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlartg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaruv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlas2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlascl.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd0.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd7.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasd8.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasda.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasdq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasdt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaset.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq3.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq4.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq5.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasq6.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlassq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlasv2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dpttrf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstebz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dstedc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsteqr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dsterf.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\dlaisnan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\disnan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\dlamch.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\maxloc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaenv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ieeeck.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\lsamen.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iparmq.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilaprec.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilatrans.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\ilauplo.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\iladiag.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\SRC\chla_transtype.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\ilaver.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\lsame.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CLAPACK\ZERO_CHECK.vcxproj">
+      <Project>{F3071807-B802-327F-BF36-6F0173E6A494}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CLAPACK\BLAS\SRC\blas.vcxproj">
+      <Project>{CD19EAB3-0714-3F93-A800-5FA21AB92FA4}</Project>
+      <Name>blas</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CLAPACK\F2CLIBS\libf2c\f2c.vcxproj">
+      <Project>{36B2EE4B-62E7-355F-BEE5-057D56DAE79D}</Project>
+      <Name>f2c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

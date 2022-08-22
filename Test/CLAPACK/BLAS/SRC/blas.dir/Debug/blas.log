@@ -1,0 +1,368 @@
+﻿生成启动时间为 2022/3/6 9:02:03。
+     1>项目“D:\CLAPACK\BLAS\SRC\blas.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/SRC/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"blas.dir\Debug\\" /Fd"blas.dir\Debug\blas.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sasum.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\saxpy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\scopy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\snrm2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\srot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sswap.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdsdot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotmg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssymv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\strmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\stbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\stpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\strsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\stbsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\stpsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sger.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssymm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyrk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\strmm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\strsm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\idamax.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dasum.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\daxpy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dcopy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ddot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dnrm2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\drot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsdot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dswap.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotmg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsymv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtbsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtpsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dger.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsymm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyrk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrmm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrsm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\scabs1.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\caxpy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ccopy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cdotc.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cdotu.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\csscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cswap.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\csrot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctbsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctpsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgerc.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgeru.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\csymm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\csyrk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\csyr2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrmm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrsm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\chemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cherk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dcabs1.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dzasum.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\dznrm2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\izamax.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zaxpy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zcopy.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdotc.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdotu.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zrotg.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zscal.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zswap.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdrot.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhemv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztbmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztpmv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztbsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztpsv.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgerc.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgeru.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpr.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpr2.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsymm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsyrk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsyr2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrmm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrsm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhemm.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zherk.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher2k.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\lsame.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\xerbla.c" "D:\clapack-3.2.1-CMAKE\BLAS\SRC\xerbla_array.c"
+         isamax.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c(63): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c(71): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c(81): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c(88): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         sasum.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\sasum.c(64): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\sasum.c(82): warning C4244: “+=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\sasum.c(95): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         saxpy.c
+         scopy.c
+         sdot.c
+         snrm2.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\snrm2.c(63): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\snrm2.c(75): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\snrm2.c(89): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         srot.c
+         srotg.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotg.c(49): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotg.c(63): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotg.c(64): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         sscal.c
+         sswap.c
+         sdsdot.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdsdot.c(129): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdsdot.c(142): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         srotmg.c
+         srotm.c
+         sgemv.c
+         sgbmv.c
+         ssymv.c
+         ssbmv.c
+         sspmv.c
+         strmv.c
+         stbmv.c
+         正在生成代码...
+         正在编译...
+         stpmv.c
+         strsv.c
+         stbsv.c
+         stpsv.c
+         sger.c
+         ssyr.c
+         sspr.c
+         ssyr2.c
+         sspr2.c
+         sgemm.c
+         ssymm.c
+         ssyrk.c
+         ssyr2k.c
+         strmm.c
+         strsm.c
+         idamax.c
+         dasum.c
+         daxpy.c
+         dcopy.c
+         ddot.c
+         正在生成代码...
+         正在编译...
+         dnrm2.c
+         drot.c
+         drotg.c
+         dscal.c
+         dsdot.c
+         dswap.c
+         drotmg.c
+         drotm.c
+         dgemv.c
+         dgbmv.c
+         dsymv.c
+         dsbmv.c
+         dspmv.c
+         dtrmv.c
+         dtbmv.c
+         dtpmv.c
+         dtrsv.c
+         dtbsv.c
+         dtpsv.c
+         dger.c
+         正在生成代码...
+         正在编译...
+         dsyr.c
+         dspr.c
+         dsyr2.c
+         dspr2.c
+         dgemm.c
+         dsymm.c
+         dsyrk.c
+         dsyr2k.c
+         dtrmm.c
+         dtrsm.c
+         scabs1.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scabs1.c(34): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scabs1.c(34): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         scasum.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c(69): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c(69): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c(82): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c(82): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         scnrm2.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c(74): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c(87): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c(87): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c(101): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         icamax.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c(63): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c(71): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c(81): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c(88): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         caxpy.c
+         ccopy.c
+         cdotc.c
+         cdotu.c
+         csscal.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\csscal.c(67): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\csscal.c(82): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         crotg.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(51): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(54): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(57): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(58): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(59): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c(62): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         cscal.c
+         cswap.c
+         csrot.c
+         cgemv.c
+         cgbmv.c
+         chemv.c
+         chbmv.c
+         chpmv.c
+         ctrmv.c
+         ctbmv.c
+         ctpmv.c
+         ctrsv.c
+         ctbsv.c
+         ctpsv.c
+         cgerc.c
+         cgeru.c
+         cher.c
+         chpr.c
+         cher2.c
+         chpr2.c
+         正在生成代码...
+         正在编译...
+         cgemm.c
+         csymm.c
+         csyrk.c
+         csyr2k.c
+         ctrmm.c
+         ctrsm.c
+         chemm.c
+         cherk.c
+         cher2k.c
+         dcabs1.c
+         dzasum.c
+         dznrm2.c
+         izamax.c
+         zaxpy.c
+         zcopy.c
+         zdotc.c
+         zdotu.c
+         zdscal.c
+         zrotg.c
+         zscal.c
+         正在生成代码...
+         正在编译...
+         zswap.c
+         zdrot.c
+         zgemv.c
+         zgbmv.c
+         zhemv.c
+         zhbmv.c
+         zhpmv.c
+         ztrmv.c
+         ztbmv.c
+         ztpmv.c
+         ztrsv.c
+         ztbsv.c
+         ztpsv.c
+         zgerc.c
+         zgeru.c
+         zher.c
+         zhpr.c
+         zher2.c
+         zhpr2.c
+         zgemm.c
+         正在生成代码...
+         正在编译...
+         zsymm.c
+         zsyrk.c
+         zsyr2k.c
+         ztrmm.c
+         ztrsm.c
+         zhemm.c
+         zherk.c
+         zher2k.c
+         lsame.c
+         xerbla.c
+     1>D:\clapack-3.2.1-CMAKE\BLAS\SRC\xerbla.c(69): warning C4013: “printf”未定义；假设外部返回 int
+         xerbla_array.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\CLAPACK\BLAS\SRC\Debug\blas.lib" /NOLOGO /MACHINE:X64  /machine:x64 blas.dir\Debug\isamax.obj
+         blas.dir\Debug\sasum.obj
+         blas.dir\Debug\saxpy.obj
+         blas.dir\Debug\scopy.obj
+         blas.dir\Debug\sdot.obj
+         blas.dir\Debug\snrm2.obj
+         blas.dir\Debug\srot.obj
+         blas.dir\Debug\srotg.obj
+         blas.dir\Debug\sscal.obj
+         blas.dir\Debug\sswap.obj
+         blas.dir\Debug\sdsdot.obj
+         blas.dir\Debug\srotmg.obj
+         blas.dir\Debug\srotm.obj
+         blas.dir\Debug\sgemv.obj
+         blas.dir\Debug\sgbmv.obj
+         blas.dir\Debug\ssymv.obj
+         blas.dir\Debug\ssbmv.obj
+         blas.dir\Debug\sspmv.obj
+         blas.dir\Debug\strmv.obj
+         blas.dir\Debug\stbmv.obj
+         blas.dir\Debug\stpmv.obj
+         blas.dir\Debug\strsv.obj
+         blas.dir\Debug\stbsv.obj
+         blas.dir\Debug\stpsv.obj
+         blas.dir\Debug\sger.obj
+         blas.dir\Debug\ssyr.obj
+         blas.dir\Debug\sspr.obj
+         blas.dir\Debug\ssyr2.obj
+         blas.dir\Debug\sspr2.obj
+         blas.dir\Debug\sgemm.obj
+         blas.dir\Debug\ssymm.obj
+         blas.dir\Debug\ssyrk.obj
+         blas.dir\Debug\ssyr2k.obj
+         blas.dir\Debug\strmm.obj
+         blas.dir\Debug\strsm.obj
+         blas.dir\Debug\idamax.obj
+         blas.dir\Debug\dasum.obj
+         blas.dir\Debug\daxpy.obj
+         blas.dir\Debug\dcopy.obj
+         blas.dir\Debug\ddot.obj
+         blas.dir\Debug\dnrm2.obj
+         blas.dir\Debug\drot.obj
+         blas.dir\Debug\drotg.obj
+         blas.dir\Debug\dscal.obj
+         blas.dir\Debug\dsdot.obj
+         blas.dir\Debug\dswap.obj
+         blas.dir\Debug\drotmg.obj
+         blas.dir\Debug\drotm.obj
+         blas.dir\Debug\dgemv.obj
+         blas.dir\Debug\dgbmv.obj
+         blas.dir\Debug\dsymv.obj
+         blas.dir\Debug\dsbmv.obj
+         blas.dir\Debug\dspmv.obj
+         blas.dir\Debug\dtrmv.obj
+         blas.dir\Debug\dtbmv.obj
+         blas.dir\Debug\dtpmv.obj
+         blas.dir\Debug\dtrsv.obj
+         blas.dir\Debug\dtbsv.obj
+         blas.dir\Debug\dtpsv.obj
+         blas.dir\Debug\dger.obj
+         blas.dir\Debug\dsyr.obj
+         blas.dir\Debug\dspr.obj
+         blas.dir\Debug\dsyr2.obj
+         blas.dir\Debug\dspr2.obj
+         blas.dir\Debug\dgemm.obj
+         blas.dir\Debug\dsymm.obj
+         blas.dir\Debug\dsyrk.obj
+         blas.dir\Debug\dsyr2k.obj
+         blas.dir\Debug\dtrmm.obj
+         blas.dir\Debug\dtrsm.obj
+         blas.dir\Debug\scabs1.obj
+         blas.dir\Debug\scasum.obj
+         blas.dir\Debug\scnrm2.obj
+         blas.dir\Debug\icamax.obj
+         blas.dir\Debug\caxpy.obj
+         blas.dir\Debug\ccopy.obj
+         blas.dir\Debug\cdotc.obj
+         blas.dir\Debug\cdotu.obj
+         blas.dir\Debug\csscal.obj
+         blas.dir\Debug\crotg.obj
+         blas.dir\Debug\cscal.obj
+         blas.dir\Debug\cswap.obj
+         blas.dir\Debug\csrot.obj
+         blas.dir\Debug\cgemv.obj
+         blas.dir\Debug\cgbmv.obj
+         blas.dir\Debug\chemv.obj
+         blas.dir\Debug\chbmv.obj
+         blas.dir\Debug\chpmv.obj
+         blas.dir\Debug\ctrmv.obj
+         blas.dir\Debug\ctbmv.obj
+         blas.dir\Debug\ctpmv.obj
+         blas.dir\Debug\ctrsv.obj
+         blas.dir\Debug\ctbsv.obj
+         blas.dir\Debug\ctpsv.obj
+         blas.dir\Debug\cgerc.obj
+         blas.dir\Debug\cgeru.obj
+         blas.dir\Debug\cher.obj
+         blas.dir\Debug\chpr.obj
+         blas.dir\Debug\cher2.obj
+         blas.dir\Debug\chpr2.obj
+         blas.dir\Debug\cgemm.obj
+         blas.dir\Debug\csymm.obj
+         blas.dir\Debug\csyrk.obj
+         blas.dir\Debug\csyr2k.obj
+         blas.dir\Debug\ctrmm.obj
+         blas.dir\Debug\ctrsm.obj
+         blas.dir\Debug\chemm.obj
+         blas.dir\Debug\cherk.obj
+         blas.dir\Debug\cher2k.obj
+         blas.dir\Debug\dcabs1.obj
+         blas.dir\Debug\dzasum.obj
+         blas.dir\Debug\dznrm2.obj
+         blas.dir\Debug\izamax.obj
+         blas.dir\Debug\zaxpy.obj
+         blas.dir\Debug\zcopy.obj
+         blas.dir\Debug\zdotc.obj
+         blas.dir\Debug\zdotu.obj
+         blas.dir\Debug\zdscal.obj
+         blas.dir\Debug\zrotg.obj
+         blas.dir\Debug\zscal.obj
+         blas.dir\Debug\zswap.obj
+         blas.dir\Debug\zdrot.obj
+         blas.dir\Debug\zgemv.obj
+         blas.dir\Debug\zgbmv.obj
+         blas.dir\Debug\zhemv.obj
+         blas.dir\Debug\zhbmv.obj
+         blas.dir\Debug\zhpmv.obj
+         blas.dir\Debug\ztrmv.obj
+         blas.dir\Debug\ztbmv.obj
+         blas.dir\Debug\ztpmv.obj
+         blas.dir\Debug\ztrsv.obj
+         blas.dir\Debug\ztbsv.obj
+         blas.dir\Debug\ztpsv.obj
+         blas.dir\Debug\zgerc.obj
+         blas.dir\Debug\zgeru.obj
+         blas.dir\Debug\zher.obj
+         blas.dir\Debug\zhpr.obj
+         blas.dir\Debug\zher2.obj
+         blas.dir\Debug\zhpr2.obj
+         blas.dir\Debug\zgemm.obj
+         blas.dir\Debug\zsymm.obj
+         blas.dir\Debug\zsyrk.obj
+         blas.dir\Debug\zsyr2k.obj
+         blas.dir\Debug\ztrmm.obj
+         blas.dir\Debug\ztrsm.obj
+         blas.dir\Debug\zhemm.obj
+         blas.dir\Debug\zherk.obj
+         blas.dir\Debug\zher2k.obj
+         blas.dir\Debug\lsame.obj
+         blas.dir\Debug\xerbla.obj
+         blas.dir\Debug\xerbla_array.obj
+         blas.vcxproj -> D:\CLAPACK\BLAS\SRC\Debug\blas.lib
+     1>已完成生成项目“D:\CLAPACK\BLAS\SRC\blas.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.45

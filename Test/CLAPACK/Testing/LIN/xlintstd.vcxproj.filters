@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaesm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alareq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\icopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ilaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\xlaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkaa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkeq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchklq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkpb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkpp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkqp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchksp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchksy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchktb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchktp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchktr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchktz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvpb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvpp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrqp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrtz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgbt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgelqs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgeqls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgeqrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgerqs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgtt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgtt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgtt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlaptm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlarhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlatb4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlatb5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlattb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlattp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlattr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlavsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlavsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlqt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlqt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlqt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpbt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpst01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dppt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dppt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dppt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dppt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dptt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dptt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dptt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqlt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqlt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqlt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqpt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dqrt17.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\drqt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\drqt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\drqt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\drzt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\drzt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dspt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dsyt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtbt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtbt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtbt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtbt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtpt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtpt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtpt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtpt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtpt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtrt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtrt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtrt03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtrt05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtrt06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtzt01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dtzt02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dgennd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrpo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlaord.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AA95C6CD-D850-300B-A961-A93E73C7103E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

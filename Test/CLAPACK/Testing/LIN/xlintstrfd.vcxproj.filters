@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkrfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrrfp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlatb4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlarhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\TESTING\LIN\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AA95C6CD-D850-300B-A961-A93E73C7103E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

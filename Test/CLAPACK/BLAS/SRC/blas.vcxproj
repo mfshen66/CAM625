@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD19EAB3-0714-3F93-A800-5FA21AB92FA4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>blas</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\BLAS\SRC\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blas.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blas</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\BLAS\SRC\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blas.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blas</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\BLAS\SRC\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blas.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blas</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\BLAS\SRC\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blas.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blas</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/BLAS/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\BLAS\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/BLAS/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\BLAS\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/BLAS/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\BLAS\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/BLAS/SRC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/BLAS/SRC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\BLAS\SRC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\isamax.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sasum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\saxpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\scopy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\snrm2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\srot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sswap.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sdsdot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotmg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\srotm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssymv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\strmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\stbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\stpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\strsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\stbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\stpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sger.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sspr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\sgemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssymm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ssyr2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\strmm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\strsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\idamax.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dasum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\daxpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dcopy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ddot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dnrm2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\drot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsdot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dswap.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotmg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\drotm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsymv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dger.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dspr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dgemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsymm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dsyr2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrmm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dtrsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\scabs1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\scasum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\scnrm2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\icamax.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\caxpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ccopy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cdotc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cdotu.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\csscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\crotg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cswap.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\csrot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgerc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgeru.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chpr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cgemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\csymm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\csyrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\csyr2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrmm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ctrsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\chemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cherk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\cher2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dcabs1.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dzasum.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\dznrm2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\izamax.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zaxpy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zcopy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdotc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdotu.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zrotg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zscal.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zswap.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zdrot.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhemv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztbmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztpmv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztbsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztpsv.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgerc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgeru.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpr.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhpr2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zgemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsymm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsyrk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zsyr2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrmm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\ztrsm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zhemm.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zherk.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\zher2k.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\lsame.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\xerbla.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\BLAS\SRC\xerbla_array.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CLAPACK\ZERO_CHECK.vcxproj">
+      <Project>{F3071807-B802-327F-BF36-6F0173E6A494}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CLAPACK\F2CLIBS\libf2c\f2c.vcxproj">
+      <Project>{36B2EE4B-62E7-355F-BEE5-057D56DAE79D}</Project>
+      <Name>f2c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

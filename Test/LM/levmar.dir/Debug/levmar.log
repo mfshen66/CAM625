@@ -1,0 +1,28 @@
+﻿生成启动时间为 2022/3/6 9:03:13。
+     1>项目“D:\LM\levmar.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/levmar-2.6/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\levmar-2.6" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"levmar.dir\Debug\\" /Fd"levmar.dir\Debug\levmar.pdb" /Gd /TC /errorReport:prompt "D:\levmar-2.6\lm.c" "D:\levmar-2.6\Axb.c" "D:\levmar-2.6\misc.c" "D:\levmar-2.6\lmlec.c" "D:\levmar-2.6\lmbc.c" "D:\levmar-2.6\lmblec.c" "D:\levmar-2.6\lmbleic.c"
+         lm.c
+         Axb.c
+         misc.c
+         lmlec.c
+         lmbc.c
+         lmblec.c
+         lmbleic.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\LM\Debug\levmar.lib" /NOLOGO /MACHINE:X64  /machine:x64 levmar.dir\Debug\lm.obj
+         levmar.dir\Debug\Axb.obj
+         levmar.dir\Debug\misc.obj
+         levmar.dir\Debug\lmlec.obj
+         levmar.dir\Debug\lmbc.obj
+         levmar.dir\Debug\lmblec.obj
+         levmar.dir\Debug\lmbleic.obj
+         levmar.vcxproj -> D:\LM\Debug\levmar.lib
+     1>已完成生成项目“D:\LM\levmar.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.59

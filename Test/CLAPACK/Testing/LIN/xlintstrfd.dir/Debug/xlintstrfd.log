@@ -1,0 +1,57 @@
+﻿生成启动时间为 2022/3/6 9:02:36。
+     1>项目“D:\CLAPACK\Testing\LIN\xlintstrfd.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/TESTING/LIN/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"xlintstrfd.dir\Debug\\" /Fd"xlintstrfd.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dchkrfp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrfp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf1.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf2.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf3.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\ddrvrf4.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\derrrfp.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlatb4.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dlarhs.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dget04.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot01.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot03.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\dpot02.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\aladhd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alahd.c" "D:\clapack-3.2.1-CMAKE\TESTING\LIN\alasvm.c" "D:\clapack-3.2.1-CMAKE\INSTALL\windsecnd.c"
+         dchkrfp.c
+         ddrvrfp.c
+         ddrvrf1.c
+         ddrvrf2.c
+         ddrvrf3.c
+         ddrvrf4.c
+         derrrfp.c
+         dlatb4.c
+         dlarhs.c
+         dget04.c
+         dpot01.c
+         dpot03.c
+         dpot02.c
+         chkxer.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\chkxer.c(37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         xerbla.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\xerbla.c(58): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         alaerh.c
+     1>D:\clapack-3.2.1-CMAKE\TESTING\LIN\alaerh.c(316): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         aladhd.c
+         alahd.c
+         alasvm.c
+         windsecnd.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CLAPACK\Testing\LIN\Debug\xlintstrfd.exe" /INCREMENTAL /NOLOGO ..\MATGEN\Debug\tmglib.lib ..\..\SRC\Debug\lapack.lib ..\..\BLAS\SRC\Debug\blas.lib ..\..\F2CLIBS\libf2c\Debug\libf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/CLAPACK/Testing/LIN/Debug/xlintstrfd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CLAPACK/Testing/LIN/Debug/xlintstrfd.lib" /MACHINE:X64  /machine:x64 xlintstrfd.dir\Debug\dchkrfp.obj
+         xlintstrfd.dir\Debug\ddrvrfp.obj
+         xlintstrfd.dir\Debug\ddrvrf1.obj
+         xlintstrfd.dir\Debug\ddrvrf2.obj
+         xlintstrfd.dir\Debug\ddrvrf3.obj
+         xlintstrfd.dir\Debug\ddrvrf4.obj
+         xlintstrfd.dir\Debug\derrrfp.obj
+         xlintstrfd.dir\Debug\dlatb4.obj
+         xlintstrfd.dir\Debug\dlarhs.obj
+         xlintstrfd.dir\Debug\dget04.obj
+         xlintstrfd.dir\Debug\dpot01.obj
+         xlintstrfd.dir\Debug\dpot03.obj
+         xlintstrfd.dir\Debug\dpot02.obj
+         xlintstrfd.dir\Debug\chkxer.obj
+         xlintstrfd.dir\Debug\xerbla.obj
+         xlintstrfd.dir\Debug\alaerh.obj
+         xlintstrfd.dir\Debug\aladhd.obj
+         xlintstrfd.dir\Debug\alahd.obj
+         xlintstrfd.dir\Debug\alasvm.obj
+         xlintstrfd.dir\Debug\windsecnd.obj
+         xlintstrfd.vcxproj -> D:\CLAPACK\Testing\LIN\Debug\xlintstrfd.exe
+     1>已完成生成项目“D:\CLAPACK\Testing\LIN\xlintstrfd.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.26

@@ -1,0 +1,30 @@
+# CMake generated Testfile for 
+# Source directory: D:/clapack-3.2.1-CMAKE/BLAS/TESTING
+# Build directory: D:/CLAPACK/BLAS/TESTING
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(xblat1s "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat1s.exe" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat1s PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;42;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;49;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat1c "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat1c.exe" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat1c PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;42;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;50;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat1d "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat1d.exe" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat1d PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;42;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;51;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat1z "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat1z.exe" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat1z PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;42;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;52;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat2s "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat2s.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/sblat2.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat2s PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;54;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat2c "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat2c.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/cblat2.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat2c PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;55;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat2d "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat2d.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/dblat2.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat2d PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;56;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat2z "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat2z.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/zblat2.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat2z PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;57;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat3s "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat3s.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/sblat3.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat3s PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;59;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat3c "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat3c.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/cblat3.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat3c PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;60;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat3d "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat3d.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/dblat3.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat3d PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;61;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")
+add_test(xblat3z "C:/Program Files/CMake/bin/cmake.exe" "-DTEST=D:/CLAPACK/BLAS/TESTING/$(Configuration)/xblat3z.exe" "-DINPUT=D:/clapack-3.2.1-CMAKE/BLAS/zblat3.in" "-DINTDIR=$(Configuration)" "-P" "D:/clapack-3.2.1-CMAKE/TESTING/runtest.cmake")
+set_tests_properties(xblat3z PROPERTIES  _BACKTRACE_TRIPLES "D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;36;add_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;62;add_blas_test;D:/clapack-3.2.1-CMAKE/BLAS/TESTING/CMakeLists.txt;0;")

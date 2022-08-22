@@ -1,0 +1,456 @@
+﻿生成启动时间为 2022/3/6 9:01:59。
+     1>项目“D:\CLAPACK\F2CLIBS\libf2c\f2c.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Generating arith.h
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /I"D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c" /ID:\CLAPACK\F2CLIBS\libf2c /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D _COMPLEX_DEFINED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"f2c.dir\Debug\\" /Fd"f2c.dir\Debug\f2c.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\f77vers.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i77vers.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\main.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_rnge.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\abort_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\exit_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getarg_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\iargc_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getenv_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\signal_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_stop.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_paus.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\system_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\cabs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ctype.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\derf_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\derfc_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\erf_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\erfc_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sig_die.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\uninit.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ci.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_dd.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_di.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_hh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ii.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ri.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_zi.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_zz.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_cos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_div.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_exp.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_log.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_cos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_div.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_exp.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_log.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_sin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_sqrt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_acos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_asin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_atan.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_atn2.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cnjg.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cosh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_dim.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_exp.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_imag.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_int.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_lg10.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_log.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_mod.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_nint.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sign.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sinh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sqrt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_tan.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_tanh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_acos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_asin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_atan.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_atn2.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cnjg.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cos.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cosh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_dim.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_exp.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_imag.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_int.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_lg10.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_log.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_mod.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_nint.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_prod.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sign.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sin.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sinh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sqrt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_tan.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_tanh.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_dim.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_dnnt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_indx.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_len.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_len_trim.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_mod.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_nint.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_sign.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitshft.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_ceiling.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_abs.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_dim.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_dnnt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_indx.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_len.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_mod.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_nint.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_sign.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_ge.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_gt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_le.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_lt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_ge.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_gt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_le.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_lt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ef1asc_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ef1cmc_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\f77_aloc.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_cat.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_cmp.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_copy.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\backspac.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\close.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dfe.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dolio.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\due.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\fmt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\fmtlib.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ftell_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\iio.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ilnw.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\inquire.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lwrite.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rewind.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsfe.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsli.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsne.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sfe.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sue.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\typesize.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\uio.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\util.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wrtfmt.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsfe.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsle.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsne.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\xwsne.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dtime_.c" "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\etime_.c"
+         f77vers.c
+         i77vers.c
+         main.c
+         s_rnge.c
+         abort_.c
+         exit_.c
+         getarg_.c
+         iargc_.c
+         getenv_.c
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdlib.h(1289): warning C4005: “max”: 宏重定义
+         d:\clapack-3.2.1-cmake\f2clibs\libf2c\f2c.h(160): note: 参见“max”的前一个定义
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdlib.h(1290): warning C4005: “min”: 宏重定义
+         d:\clapack-3.2.1-cmake\f2clibs\libf2c\f2c.h(159): note: 参见“min”的前一个定义
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getenv_.c(42): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdlib.h(1188): note: 参见“getenv”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getenv_.c(48): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getenv_.c(50): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdlib.h(1188): note: 参见“getenv”的声明
+         signal_.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\signal_.c(17): warning C4311: “类型转换”: 从“_crt_signal_t”到“ftnint”的指针截断
+         s_stop.c
+         s_paus.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_paus.c(65): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2450): note: 参见“fileno”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_paus.c(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+         system_.c
+         cabs.c
+         ctype.c
+         derf_.c
+         derfc_.c
+         erf_.c
+         erfc_.c
+         sig_die.c
+         正在生成代码...
+         正在编译...
+         uninit.c
+         pow_ci.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ci.c(21): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ci.c(22): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         pow_dd.c
+         pow_di.c
+         pow_hh.c
+         pow_ii.c
+         pow_ri.c
+         pow_zi.c
+         pow_zz.c
+         c_abs.c
+         c_cos.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_cos.c(18): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_cos.c(19): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         c_div.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_div.c(39): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_div.c(47): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_div.c(49): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         c_exp.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_exp.c(20): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_exp.c(21): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         c_log.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_log.c(18): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_log.c(19): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         c_sin.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sin.c(18): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sin.c(19): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         c_sqrt.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c(25): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c(27): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c(34): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c(36): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         z_abs.c
+         z_cos.c
+         z_div.c
+         z_exp.c
+         正在生成代码...
+         正在编译...
+         z_log.c
+         z_sin.c
+         z_sqrt.c
+         r_abs.c
+         r_acos.c
+         r_asin.c
+         r_atan.c
+         r_atn2.c
+         r_cnjg.c
+         r_cos.c
+         r_cosh.c
+         r_dim.c
+         r_exp.c
+         r_imag.c
+         r_int.c
+         r_lg10.c
+         r_log.c
+         r_mod.c
+         r_nint.c
+         r_sign.c
+         正在生成代码...
+         正在编译...
+         r_sin.c
+         r_sinh.c
+         r_sqrt.c
+         r_tan.c
+         r_tanh.c
+         d_abs.c
+         d_acos.c
+         d_asin.c
+         d_atan.c
+         d_atn2.c
+         d_cnjg.c
+         d_cos.c
+         d_cosh.c
+         d_dim.c
+         d_exp.c
+         d_imag.c
+         d_int.c
+         d_lg10.c
+         d_log.c
+         d_mod.c
+         正在生成代码...
+         正在编译...
+         d_nint.c
+         d_prod.c
+         d_sign.c
+         d_sin.c
+         d_sinh.c
+         d_sqrt.c
+         d_tan.c
+         d_tanh.c
+         i_abs.c
+         i_dim.c
+         i_dnnt.c
+         i_indx.c
+         i_len.c
+         i_len_trim.c
+         i_mod.c
+         i_nint.c
+         i_sign.c
+         lbitbits.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c(47): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c(51): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c(60): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c(64): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         lbitshft.c
+         i_ceiling.c
+         正在生成代码...
+         正在编译...
+         h_abs.c
+         h_dim.c
+         h_dnnt.c
+         h_indx.c
+         h_len.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_len.c(12): warning C4244: “return”: 从“ftnlen”转换到“shortint”，可能丢失数据
+         h_mod.c
+         h_nint.c
+         h_sign.c
+         l_ge.c
+         l_gt.c
+         l_le.c
+         l_lt.c
+         hl_ge.c
+         hl_gt.c
+         hl_le.c
+         hl_lt.c
+         ef1asc_.c
+         ef1cmc_.c
+         f77_aloc.c
+         s_cat.c
+         正在生成代码...
+         正在编译...
+         s_cmp.c
+         s_copy.c
+         backspac.c
+         close.c
+         dfe.c
+         dolio.c
+         due.c
+         endfile.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(111): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(429): note: 参见“tmpfile”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(123): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+         err.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c(220): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c(222): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c(256): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c(263): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+         fmt.c
+         fmtlib.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\fmtlib.c(42): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+         ftell_.c
+         iio.c
+         ilnw.c
+         inquire.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\inquire.c(73): warning C4244: “=”: 从“__int64”转换到“ftnint”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\inquire.c(35): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_io.h(441): note: 参见“access”的声明
+         lread.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(79): warning C4273: “ungetc”: dll 链接不一致
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(445): note: 参见“ungetc”的前一个定义
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(183): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(751): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(758): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c(759): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         lwrite.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lwrite.c(172): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lwrite.c(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         open.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(207): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_io.h(441): note: 参见“access”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(219): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(429): note: 参见“tmpfile”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(237): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_io.h(441): note: 参见“access”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(246): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(252): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(255): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(258): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(291): warning C4267: “=”: 从“size_t”转换到“ftnlen”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         rdfmt.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c(70): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c(71): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c(93): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c(389): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         rewind.c
+         正在生成代码...
+         正在编译...
+         rsfe.c
+         rsli.c
+         rsne.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsne.c(71): warning C4273: “ungetc”: dll 链接不一致
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(445): note: 参见“ungetc”的前一个定义
+         sfe.c
+         sue.c
+         typesize.c
+         uio.c
+         util.c
+         wref.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c(99): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         wrtfmt.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wrtfmt.c(96): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+         wsfe.c
+         wsle.c
+         wsne.c
+         xwsne.c
+         dtime_.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dtime_.c(47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         etime_.c
+     1>D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\etime_.c(46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\CLAPACK\F2CLIBS\libf2c\Debug\libf2c.lib" /NOLOGO /MACHINE:X64  /machine:x64 f2c.dir\Debug\f77vers.obj
+         f2c.dir\Debug\i77vers.obj
+         f2c.dir\Debug\main.obj
+         f2c.dir\Debug\s_rnge.obj
+         f2c.dir\Debug\abort_.obj
+         f2c.dir\Debug\exit_.obj
+         f2c.dir\Debug\getarg_.obj
+         f2c.dir\Debug\iargc_.obj
+         f2c.dir\Debug\getenv_.obj
+         f2c.dir\Debug\signal_.obj
+         f2c.dir\Debug\s_stop.obj
+         f2c.dir\Debug\s_paus.obj
+         f2c.dir\Debug\system_.obj
+         f2c.dir\Debug\cabs.obj
+         f2c.dir\Debug\ctype.obj
+         f2c.dir\Debug\derf_.obj
+         f2c.dir\Debug\derfc_.obj
+         f2c.dir\Debug\erf_.obj
+         f2c.dir\Debug\erfc_.obj
+         f2c.dir\Debug\sig_die.obj
+         f2c.dir\Debug\uninit.obj
+         f2c.dir\Debug\pow_ci.obj
+         f2c.dir\Debug\pow_dd.obj
+         f2c.dir\Debug\pow_di.obj
+         f2c.dir\Debug\pow_hh.obj
+         f2c.dir\Debug\pow_ii.obj
+         f2c.dir\Debug\pow_ri.obj
+         f2c.dir\Debug\pow_zi.obj
+         f2c.dir\Debug\pow_zz.obj
+         f2c.dir\Debug\c_abs.obj
+         f2c.dir\Debug\c_cos.obj
+         f2c.dir\Debug\c_div.obj
+         f2c.dir\Debug\c_exp.obj
+         f2c.dir\Debug\c_log.obj
+         f2c.dir\Debug\c_sin.obj
+         f2c.dir\Debug\c_sqrt.obj
+         f2c.dir\Debug\z_abs.obj
+         f2c.dir\Debug\z_cos.obj
+         f2c.dir\Debug\z_div.obj
+         f2c.dir\Debug\z_exp.obj
+         f2c.dir\Debug\z_log.obj
+         f2c.dir\Debug\z_sin.obj
+         f2c.dir\Debug\z_sqrt.obj
+         f2c.dir\Debug\r_abs.obj
+         f2c.dir\Debug\r_acos.obj
+         f2c.dir\Debug\r_asin.obj
+         f2c.dir\Debug\r_atan.obj
+         f2c.dir\Debug\r_atn2.obj
+         f2c.dir\Debug\r_cnjg.obj
+         f2c.dir\Debug\r_cos.obj
+         f2c.dir\Debug\r_cosh.obj
+         f2c.dir\Debug\r_dim.obj
+         f2c.dir\Debug\r_exp.obj
+         f2c.dir\Debug\r_imag.obj
+         f2c.dir\Debug\r_int.obj
+         f2c.dir\Debug\r_lg10.obj
+         f2c.dir\Debug\r_log.obj
+         f2c.dir\Debug\r_mod.obj
+         f2c.dir\Debug\r_nint.obj
+         f2c.dir\Debug\r_sign.obj
+         f2c.dir\Debug\r_sin.obj
+         f2c.dir\Debug\r_sinh.obj
+         f2c.dir\Debug\r_sqrt.obj
+         f2c.dir\Debug\r_tan.obj
+         f2c.dir\Debug\r_tanh.obj
+         f2c.dir\Debug\d_abs.obj
+         f2c.dir\Debug\d_acos.obj
+         f2c.dir\Debug\d_asin.obj
+         f2c.dir\Debug\d_atan.obj
+         f2c.dir\Debug\d_atn2.obj
+         f2c.dir\Debug\d_cnjg.obj
+         f2c.dir\Debug\d_cos.obj
+         f2c.dir\Debug\d_cosh.obj
+         f2c.dir\Debug\d_dim.obj
+         f2c.dir\Debug\d_exp.obj
+         f2c.dir\Debug\d_imag.obj
+         f2c.dir\Debug\d_int.obj
+         f2c.dir\Debug\d_lg10.obj
+         f2c.dir\Debug\d_log.obj
+         f2c.dir\Debug\d_mod.obj
+         f2c.dir\Debug\d_nint.obj
+         f2c.dir\Debug\d_prod.obj
+         f2c.dir\Debug\d_sign.obj
+         f2c.dir\Debug\d_sin.obj
+         f2c.dir\Debug\d_sinh.obj
+         f2c.dir\Debug\d_sqrt.obj
+         f2c.dir\Debug\d_tan.obj
+         f2c.dir\Debug\d_tanh.obj
+         f2c.dir\Debug\i_abs.obj
+         f2c.dir\Debug\i_dim.obj
+         f2c.dir\Debug\i_dnnt.obj
+         f2c.dir\Debug\i_indx.obj
+         f2c.dir\Debug\i_len.obj
+         f2c.dir\Debug\i_len_trim.obj
+         f2c.dir\Debug\i_mod.obj
+         f2c.dir\Debug\i_nint.obj
+         f2c.dir\Debug\i_sign.obj
+         f2c.dir\Debug\lbitbits.obj
+         f2c.dir\Debug\lbitshft.obj
+         f2c.dir\Debug\i_ceiling.obj
+         f2c.dir\Debug\h_abs.obj
+         f2c.dir\Debug\h_dim.obj
+         f2c.dir\Debug\h_dnnt.obj
+         f2c.dir\Debug\h_indx.obj
+         f2c.dir\Debug\h_len.obj
+         f2c.dir\Debug\h_mod.obj
+         f2c.dir\Debug\h_nint.obj
+         f2c.dir\Debug\h_sign.obj
+         f2c.dir\Debug\l_ge.obj
+         f2c.dir\Debug\l_gt.obj
+         f2c.dir\Debug\l_le.obj
+         f2c.dir\Debug\l_lt.obj
+         f2c.dir\Debug\hl_ge.obj
+         f2c.dir\Debug\hl_gt.obj
+         f2c.dir\Debug\hl_le.obj
+         f2c.dir\Debug\hl_lt.obj
+         f2c.dir\Debug\ef1asc_.obj
+         f2c.dir\Debug\ef1cmc_.obj
+         f2c.dir\Debug\f77_aloc.obj
+         f2c.dir\Debug\s_cat.obj
+         f2c.dir\Debug\s_cmp.obj
+         f2c.dir\Debug\s_copy.obj
+         f2c.dir\Debug\backspac.obj
+         f2c.dir\Debug\close.obj
+         f2c.dir\Debug\dfe.obj
+         f2c.dir\Debug\dolio.obj
+         f2c.dir\Debug\due.obj
+         f2c.dir\Debug\endfile.obj
+         f2c.dir\Debug\err.obj
+         f2c.dir\Debug\fmt.obj
+         f2c.dir\Debug\fmtlib.obj
+         f2c.dir\Debug\ftell_.obj
+         f2c.dir\Debug\iio.obj
+         f2c.dir\Debug\ilnw.obj
+         f2c.dir\Debug\inquire.obj
+         f2c.dir\Debug\lread.obj
+         f2c.dir\Debug\lwrite.obj
+         f2c.dir\Debug\open.obj
+         f2c.dir\Debug\rdfmt.obj
+         f2c.dir\Debug\rewind.obj
+         f2c.dir\Debug\rsfe.obj
+         f2c.dir\Debug\rsli.obj
+         f2c.dir\Debug\rsne.obj
+         f2c.dir\Debug\sfe.obj
+         f2c.dir\Debug\sue.obj
+         f2c.dir\Debug\typesize.obj
+         f2c.dir\Debug\uio.obj
+         f2c.dir\Debug\util.obj
+         f2c.dir\Debug\wref.obj
+         f2c.dir\Debug\wrtfmt.obj
+         f2c.dir\Debug\wsfe.obj
+         f2c.dir\Debug\wsle.obj
+         f2c.dir\Debug\wsne.obj
+         f2c.dir\Debug\xwsne.obj
+         f2c.dir\Debug\dtime_.obj
+         f2c.dir\Debug\etime_.obj
+         f2c.vcxproj -> D:\CLAPACK\F2CLIBS\libf2c\Debug\libf2c.lib
+     1>已完成生成项目“D:\CLAPACK\F2CLIBS\libf2c\f2c.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.73

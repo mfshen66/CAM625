@@ -1,0 +1,15 @@
+﻿生成启动时间为 2022/3/6 9:01:58。
+     1>项目“D:\CLAPACK\F2CLIBS\libf2c\arithchk.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\clapack-3.2.1-CMAKE\INCLUDE" /I"D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c" /ID:\CLAPACK\F2CLIBS\libf2c /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_FPINIT /D NO_LONG_LONG /D NO_ISATTY /D MSDOS /D USE_CLOCK /D NO_BLAS_WRAP /D _COMPLEX_DEFINED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"arithchk.dir\Debug\\" /Fd"arithchk.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\arithchk.c"
+         arithchk.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CLAPACK\F2CLIBS\libf2c\Debug\arithchk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/CLAPACK/F2CLIBS/libf2c/Debug/arithchk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CLAPACK/F2CLIBS/libf2c/Debug/arithchk.lib" /MACHINE:X64  /machine:x64 arithchk.dir\Debug\arithchk.obj
+         arithchk.vcxproj -> D:\CLAPACK\F2CLIBS\libf2c\Debug\arithchk.exe
+     1>已完成生成项目“D:\CLAPACK\F2CLIBS\libf2c\arithchk.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.85

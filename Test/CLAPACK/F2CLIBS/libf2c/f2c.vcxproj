@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36B2EE4B-62E7-355F-BEE5-057D56DAE79D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>f2c</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\F2CLIBS\libf2c\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">f2c.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libf2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\F2CLIBS\libf2c\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">f2c.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libf2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\F2CLIBS\libf2c\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">f2c.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libf2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\F2CLIBS\libf2c\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">f2c.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libf2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_ISATTY;MSDOS;USE_CLOCK;NO_BLAS_WRAP;_COMPLEX_DEFINED;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\clapack-3.2.1-CMAKE\INCLUDE;D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c;D:\CLAPACK\F2CLIBS\libf2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CLAPACK\CMakeFiles\b25aedffc9fb75ffe9e464db8185b8a6\arith.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating arith.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\arithchk.exe &gt; D:/CLAPACK/F2CLIBS/libf2c/arith.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\F2CLIBS\libf2c\Debug\arithchk.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\F2CLIBS\libf2c\arith.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating arith.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\arithchk.exe &gt; D:/CLAPACK/F2CLIBS/libf2c/arith.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\F2CLIBS\libf2c\Release\arithchk.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\F2CLIBS\libf2c\arith.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating arith.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\arithchk.exe &gt; D:/CLAPACK/F2CLIBS/libf2c/arith.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\F2CLIBS\libf2c\MinSizeRel\arithchk.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\F2CLIBS\libf2c\arith.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating arith.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\arithchk.exe &gt; D:/CLAPACK/F2CLIBS/libf2c/arith.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\F2CLIBS\libf2c\RelWithDebInfo\arithchk.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\F2CLIBS\libf2c\arith.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/F2CLIBS/libf2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLAPACK\F2CLIBS\libf2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/F2CLIBS/libf2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLAPACK\F2CLIBS\libf2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/F2CLIBS/libf2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLAPACK\F2CLIBS\libf2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/clapack-3.2.1-CMAKE/F2CLIBS/libf2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/clapack-3.2.1-CMAKE -BD:/CLAPACK --check-stamp-file D:/CLAPACK/F2CLIBS/libf2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLAPACK\F2CLIBS\libf2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\f77vers.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i77vers.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\main.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_rnge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\abort_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\exit_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getarg_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\iargc_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\getenv_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\signal_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_stop.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_paus.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\system_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\cabs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ctype.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\derf_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\derfc_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\erf_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\erfc_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sig_die.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\uninit.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ci.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_dd.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_di.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_hh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ii.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_ri.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_zi.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\pow_zz.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_cos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_div.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_exp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_log.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\c_sqrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_cos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_div.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_exp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_log.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_sin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\z_sqrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_acos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_asin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_atan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_atn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cnjg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_cosh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_dim.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_exp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_imag.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_int.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_lg10.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_log.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_mod.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_nint.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sign.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sinh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_sqrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_tan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\r_tanh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_acos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_asin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_atan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_atn2.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cnjg.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cos.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_cosh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_dim.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_exp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_imag.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_int.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_lg10.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_log.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_mod.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_nint.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_prod.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sign.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sin.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sinh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_sqrt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_tan.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\d_tanh.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_dim.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_dnnt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_indx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_len.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_len_trim.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_mod.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_nint.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_sign.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitbits.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lbitshft.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\i_ceiling.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_abs.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_dim.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_dnnt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_indx.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_len.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_mod.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_nint.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\h_sign.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_ge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_gt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_le.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\l_lt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_ge.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_gt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_le.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\hl_lt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ef1asc_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ef1cmc_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\f77_aloc.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_cat.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_cmp.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\s_copy.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\backspac.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\close.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dfe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dolio.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\due.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\endfile.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\err.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\fmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\fmtlib.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ftell_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\iio.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\ilnw.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\inquire.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lread.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\lwrite.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\open.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rdfmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rewind.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsfe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsli.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\rsne.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sfe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\sue.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\typesize.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\uio.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\util.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wref.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wrtfmt.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsfe.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsle.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\wsne.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\xwsne.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\dtime_.c" />
+    <ClCompile Include="D:\clapack-3.2.1-CMAKE\F2CLIBS\libf2c\etime_.c" />
+    <ClInclude Include="D:\CLAPACK\F2CLIBS\libf2c\arith.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CLAPACK\ZERO_CHECK.vcxproj">
+      <Project>{F3071807-B802-327F-BF36-6F0173E6A494}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CLAPACK\F2CLIBS\libf2c\arithchk.vcxproj">
+      <Project>{2D0D47D1-2B0E-3D31-A05F-653228966782}</Project>
+      <Name>arithchk</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

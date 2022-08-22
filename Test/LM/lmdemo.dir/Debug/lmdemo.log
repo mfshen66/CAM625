@@ -1,0 +1,34 @@
+﻿生成启动时间为 2022/3/6 9:03:13。
+     1>项目“D:\LM\lmdemo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/levmar-2.6/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\levmar-2.6" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"lmdemo.dir\Debug\\" /Fd"lmdemo.dir\Debug\vc140.pdb" /Gd /TC /errorReport:prompt "D:\levmar-2.6\lmdemo.c"
+         lmdemo.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LM\Debug\lmdemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/LM /LIBPATH:D:/LM/Debug /LIBPATH:D:/CLAPACK/LIB /LIBPATH:D:/CLAPACK/LIB/Debug Debug\levmar.lib lapack.lib blas.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:/LM/Debug/lmdemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/LM/Debug/lmdemo.lib" /MACHINE:X64  /machine:x64 lmdemo.dir\Debug\lmdemo.obj
+     1>lapack.lib(dormlq.obj) : error LNK2001: 无法解析的外部符号 s_cat
+     1>lapack.lib(dtrtri.obj) : error LNK2001: 无法解析的外部符号 s_cat
+     1>lapack.lib(dgesvd.obj) : error LNK2001: 无法解析的外部符号 s_cat
+     1>lapack.lib(dormqr.obj) : error LNK2001: 无法解析的外部符号 s_cat
+     1>lapack.lib(dormbr.obj) : error LNK2001: 无法解析的外部符号 s_cat
+     1>lapack.lib(ilaenv.obj) : error LNK2019: 无法解析的外部符号 s_copy，该符号在函数 ilaenv_ 中被引用
+     1>lapack.lib(ilaenv.obj) : error LNK2019: 无法解析的外部符号 s_cmp，该符号在函数 ilaenv_ 中被引用
+     1>lapack.lib(dlaqps.obj) : error LNK2019: 无法解析的外部符号 i_dnnt，该符号在函数 dlaqps_ 中被引用
+     1>lapack.lib(dlamch.obj) : error LNK2019: 无法解析的外部符号 pow_di，该符号在函数 dlamch_ 中被引用
+     1>lapack.lib(dlartg.obj) : error LNK2001: 无法解析的外部符号 pow_di
+     1>lapack.lib(dlamch.obj) : error LNK2019: 无法解析的外部符号 s_wsfe，该符号在函数 dlamc2_ 中被引用
+     1>lapack.lib(dlamch.obj) : error LNK2019: 无法解析的外部符号 do_fio，该符号在函数 dlamc2_ 中被引用
+     1>lapack.lib(dlamch.obj) : error LNK2019: 无法解析的外部符号 e_wsfe，该符号在函数 dlamc2_ 中被引用
+     1>lapack.lib(dbdsqr.obj) : error LNK2019: 无法解析的外部符号 pow_dd，该符号在函数 dbdsqr_ 中被引用
+     1>lapack.lib(dbdsqr.obj) : error LNK2019: 无法解析的外部符号 d_sign，该符号在函数 dbdsqr_ 中被引用
+     1>lapack.lib(dlarfp.obj) : error LNK2001: 无法解析的外部符号 d_sign
+     1>lapack.lib(dlasv2.obj) : error LNK2001: 无法解析的外部符号 d_sign
+     1>lapack.lib(dlarfg.obj) : error LNK2001: 无法解析的外部符号 d_sign
+     1>lapack.lib(iparmq.obj) : error LNK2019: 无法解析的外部符号 i_nint，该符号在函数 iparmq_ 中被引用
+     1>D:\LM\Debug\lmdemo.exe : fatal error LNK1120: 11 个无法解析的外部命令
+     1>已完成生成项目“D:\LM\lmdemo.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.43
