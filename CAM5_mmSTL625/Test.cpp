@@ -78,9 +78,11 @@ void CCAMDoc::OnTest()
 		{
 			for(i = 1 ; i <= pGDI->ns[k] ; i++ )
 			{
-				if( pGDI->pps[k][i].I > 0 &&
-					pGDI->pps[k][i].perp == 1 )
+				if (pGDI->pps[k][i].I > 0 &&
+					pGDI->pps[k][i].perp == 1)
+				{
 					AddLin(pGDI->pps[k][i].ps[0], pGDI->pps[k][i].ps[1]) ;
+				}
 			}
 		}
 		delete pGDI ;

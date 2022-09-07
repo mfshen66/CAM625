@@ -4,6 +4,9 @@
 #define EPS06 1e-6
 #define STLTRI 60
 
+#define TOLLENGTH EPS06
+#define TOLSUARELENGTH 1e-12
+
 typedef struct {
 	double   x,y,z;
 } STLVECTOR;
@@ -19,6 +22,14 @@ typedef struct FaceList     *FList;
 typedef struct FaceRelated  *FRelated;
 typedef struct MTIPathOriginList    *POList;
 typedef struct GridModel GM ; // nt add 2022/6/15
+
+// smf add 2022/09/07
+int vectorNormalize(STLVECTOR iVector);
+STLVECTOR operator- (STLPNT3D &iBegin, STLPNT3D &iEnd);
+STLVECTOR operator- (STLVECTOR &iVector); // 向量取反
+STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
+STLVECTOR operator* (double iScalar, STLVECTOR &iVector);
+STLVECTOR operator^ (STLVECTOR &iVectorU, STLVECTOR &iVectorV);
 
 struct VertexList {
 	STLPNT3D     Coord;		
@@ -69,6 +80,21 @@ struct FaceList : public CVO
 	int Draw2(void* pVI, int drawMode) ;
 };
 
+// 线段与平面求交
+int mathSegmentIntPln(PNT3D iPntOfSegment1, PNT3D iPntOfSegment2,  // 线段的两个端点
+	PNT3D iPntOnPlane, VEC3D iNormPlane,  // 平面的法矢及平面上一点
+	double tolLength, double tolAngle,  // 长度容差及角度容差
+	PNT3D* oPntsOfIntersection); // 交点数组的指针
+
+// 平面与三角形求交
+int mathPlnIntTri(
+	PNT3D iPntOfTri1, PNT3D iPntOfTri2, PNT3D iPntOfTri3, // 三角形的三个顶点
+	PNT3D iPntOnPlane, VEC3D iNormPlane,  // 平面的法矢及平面上一点
+	double tolLength, double tolAngle,  // 长度容差及角度容差
+	PNT3D* oPntsOfIntersection); // 交点数组的指针
+
+double mathSquareDist(PNT3D p1, PNT3D p2);
+
 struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	int TNum;					//条数标记
 	int DNum;					//段数标记
@@ -81,7 +107,10 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 
 	POList Copy() ; // nt add 2022/7/10
 	POList DirectOffset(double d) ; // nt add 2022/7/10
-	POList GeodesicOffset(double d, int dir); // smf add 2022/7/27
+	// 非柔性滚子
+	POList GeodesicOffsetNonFlexible(double iDistance, int iDir); // smf add 2022/7/27
+	// 柔性滚子
+	POList GeodesicOffsetFlexible(double d, int dir); // smf add 2022/9/25
 	void Draw() ;
 	double Snap(GridModel* pGM, FList fs[2], double ps[2][3], double tol, int& I, double& t, int& perp) ;
 };
