@@ -136,7 +136,7 @@ void CCAMDoc::OnTest()
 
 	POList polist = pGM->POLHead[1], offset = nullptr;
 	double chordal_height = 0;
-	offset = polist->GeodesicOffsetNonFlexible(5, 1, chordal_height);
+	offset = polist->GeodesicOffsetNonFlexible(10, 1, chordal_height);
 	int n = 0;
 	for (int i = 1; i <= (offset->DNum); i++)
 		n += (offset->ENum[i] - offset->SNum[i] + 1); // 计算需要等距的点数？？？
