@@ -132,21 +132,29 @@ void CCAMDoc::OnTest()
 	//	iTolLength, iTolAngle,  // 长度容差及角度容差
 	//	oSTLPntsOfIntersection); // 交点数组的指针
 
-	GridModel* pGM = m_pPart->m_pGM;
+	//GridModel* pGM = m_pPart->m_pGM;
 
-	POList polist = pGM->POLHead[1], offset = nullptr;
-	double chordal_height = 0;
-	offset = polist->GeodesicOffsetNonFlexible(10, 1, chordal_height);
-	int n = 0;
-	for (int i = 1; i <= (offset->DNum); i++)
-		n += (offset->ENum[i] - offset->SNum[i] + 1); // 计算需要等距的点数？？？
-	for (size_t i = 1; i < n; i++)
-	{
-		PNT3D p, q;
-		memcpy(p, &offset->PTrail[i], sizeof(PNT3D));
-		memcpy(q, &offset->PTrail[i + 1], sizeof(PNT3D));
-		AddLin(p, q);
-	}
+	//POList polist = pGM->POLHead[1], offset = nullptr;
+	//double chordal_height = 0;
+	//offset = polist->GeodesicOffsetNonFlexible(10, 1, chordal_height);
+	//int n = 0;
+	//for (int i = 1; i <= (offset->DNum); i++)
+	//	n += (offset->ENum[i] - offset->SNum[i] + 1); // 计算需要等距的点数？？？
+	//for (size_t i = 1; i < n; i++)
+	//{
+	//	PNT3D p, q;
+	//	memcpy(p, &offset->PTrail[i], sizeof(PNT3D));
+	//	memcpy(q, &offset->PTrail[i + 1], sizeof(PNT3D));
+	//	AddLin(p, q);
+	//}
+
+	PNT3D p = { 0, 0, 0 }, begin = { 0, 0, -1 }, end = { 0, 0, 1 }, p1 = { 1, 1, 0 }, p2 = { -1, -1, 0 };
+	VEC3D v = { 0, 0, 1 };
+	double r = 1, tol = TOLLENGTH;
+	int pn = 0;
+	PNT3D p_int1, p_int2;
+	mathIntSegmCyl(begin, end, p, v, r, tol, &pn, p1, p2, p_int1, p_int2);
+
 
 	return;
 }

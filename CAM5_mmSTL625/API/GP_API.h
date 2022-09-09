@@ -580,7 +580,12 @@ GP_API int mathMatxInvs(int row, int col, double* matrix, double* inverse) ;
 GP_API int mathOptNormalOfPts(int np, STR3D ps, PNT3D center, VEC3D normal) ;
 GP_API int mathOptNormalOfVecs(int nv, STR3D vs, VEC3D normal) ; // nt add 2006/7/25
 GP_API double mathSolAngleByCS(double CosA, double SinA) ;
-GP_API double mathRand01() ;
+GP_API double mathRand01() ; 
+GP_API int mathPrjPntCyl(PNT3D p, PNT3D pivot, VEC3D axis, double r, PNT3D prj_p);
+GP_API int mathIsPntInCyl(PNT3D p, PNT3D p1, PNT3D p2, double r);
+GP_API int mathIntLinCyl(PNT3D begin, VEC3D dir, PNT3D pivot, VEC3D axis, double r, double tol, double ang, PNT3D intpt1, PNT3D intpt2);
+GP_API int mathIntSegmCyl(PNT3D begin, PNT3D end, PNT3D pivot, VEC3D axis, double r, double tol, int* pn, PNT3D p1, PNT3D p2, double* pt1, double* pt2);
+GP_API int mathCylSnap(PNT3D pivot, VEC3D e1, VEC3D e2, VEC3D e3, double r, PNT3D p, PNT3D nearest_p, double* pu, double* pv, double* pd);
 //--------------------------------------------------------------
 // nt add 2011/5/17
 GP_API void m33Zero(double A[3][3]) ; // aij = 0.
