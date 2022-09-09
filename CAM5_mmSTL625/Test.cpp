@@ -121,16 +121,32 @@ void CCAMDoc::OnTest()
 	//	iTolLength, iTolAngle,  // 长度容差及角度容差
 	//	oPntsOfIntersection); // 交点数组的指针
 
-	STLPNT3D iSTLPntOfTri1 = { 1, 1, 1 }, iSTLPntOfTri2 = { 0, 1, 0 }, iSTLPntOfTri3 = { 1, 0, 1 }, // 三角形的三个顶点
-		iSTLPntOnPlane = { 0, 0, 0 };
-	STLVECTOR iSTLNormPlane = { 0, 0, 1 };  // 平面的法矢及平面上一点
-	double iTolLength = TOLLENGTH, iTolAngle = TOLANGLE; // 长度容差及角度容差
-	STLPNT3D oSTLPntsOfIntersection[3];
-	int res = mathPlnIntTri(
-		iSTLPntOfTri1, iSTLPntOfTri2, iSTLPntOfTri3, // 三角形的三个顶点
-		iSTLPntOnPlane, iSTLNormPlane,  // 平面的法矢及平面上一点
-		iTolLength, iTolAngle,  // 长度容差及角度容差
-		oSTLPntsOfIntersection); // 交点数组的指针
+	//STLPNT3D iSTLPntOfTri1 = { 1, 1, 1 }, iSTLPntOfTri2 = { 0, 1, 0 }, iSTLPntOfTri3 = { 1, 0, 1 }, // 三角形的三个顶点
+	//	iSTLPntOnPlane = { 0, 0, 0 };
+	//STLVECTOR iSTLNormPlane = { 0, 0, 1 };  // 平面的法矢及平面上一点
+	//double iTolLength = TOLLENGTH, iTolAngle = TOLANGLE; // 长度容差及角度容差
+	//STLPNT3D oSTLPntsOfIntersection[3];
+	//int res = mathPlnIntTri(
+	//	iSTLPntOfTri1, iSTLPntOfTri2, iSTLPntOfTri3, // 三角形的三个顶点
+	//	iSTLPntOnPlane, iSTLNormPlane,  // 平面的法矢及平面上一点
+	//	iTolLength, iTolAngle,  // 长度容差及角度容差
+	//	oSTLPntsOfIntersection); // 交点数组的指针
+
+	GridModel* pGM = m_pPart->m_pGM;
+
+	POList polist = pGM->POLHead[1], offset = nullptr;
+	double chordal_height = 0;
+	offset = polist->GeodesicOffsetNonFlexible(5, 1, chordal_height);
+	int n = 0;
+	for (int i = 1; i <= (offset->DNum); i++)
+		n += (offset->ENum[i] - offset->SNum[i] + 1); // 计算需要等距的点数？？？
+	for (size_t i = 1; i < n; i++)
+	{
+		PNT3D p, q;
+		memcpy(p, &offset->PTrail[i], sizeof(PNT3D));
+		memcpy(q, &offset->PTrail[i + 1], sizeof(PNT3D));
+		AddLin(p, q);
+	}
 
 	return;
 }

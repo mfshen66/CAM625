@@ -25,7 +25,7 @@ typedef struct MTIPathOriginList    *POList;
 typedef struct GridModel GM ; // nt add 2022/6/15
 
 // smf add 2022/09/07
-int vectorNormalize(STLVECTOR iVector);
+STLVECTOR vectorNormalize(STLVECTOR iVector);
 STLVECTOR operator- (STLPNT3D &iBegin, STLPNT3D &iEnd);
 STLVECTOR operator- (STLVECTOR &iVector); // 向量取反
 STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
