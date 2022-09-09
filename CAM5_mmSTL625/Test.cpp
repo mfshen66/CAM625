@@ -135,7 +135,7 @@ void CCAMDoc::OnTest()
 	GridModel* pGM = m_pPart->m_pGM;
 
 	POList polist = pGM->POLHead[1], offset = nullptr;
-	double chordal_height = 0;
+	double *chordal_height = new double[polist->DNum];
 	offset = polist->GeodesicOffsetNonFlexible(10, 1, chordal_height);
 	int n = 0;
 	for (int i = 1; i <= (offset->DNum); i++)
@@ -147,6 +147,7 @@ void CCAMDoc::OnTest()
 		memcpy(q, &offset->PTrail[i + 1], sizeof(PNT3D));
 		AddLin(p, q);
 	}
+	Redraw();
 
 	/*PNT3D p = { 0, 0, 0 }, begin = { 0, 0, -1 }, end = { 0, 0, 1 }, p1 = { 1, 1, 0 }, p2 = { -1, -1, 0 };
 	VEC3D v = { 0, 0, 1 };
@@ -154,7 +155,8 @@ void CCAMDoc::OnTest()
 	int pn = 0;
 	PNT3D p_int1, p_int2;
 	mathIntSegmCyl(begin, end, p, v, r, tol, &pn, p1, p2, p_int1, p_int2);*/
-
+	delete[] chordal_height;
+	chordal_height = nullptr;
 
 	return;
 }

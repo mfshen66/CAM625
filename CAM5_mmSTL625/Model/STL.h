@@ -117,7 +117,7 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	POList Copy() ; // nt add 2022/7/10
 	POList DirectOffset(double d) ; // nt add 2022/7/10
 	// 非柔性滚子
-	POList GeodesicOffsetNonFlexible(double iDistance, int iDir, double& oChordalHeight); // smf add 2022/7/27
+	POList GeodesicOffsetNonFlexible(double iDistance, int iDir, double * oChordalHeight); // smf add 2022/7/27
 	// 柔性滚子
 	POList GeodesicOffsetFlexible(double d, int dir); // smf add 2022/9/25
 	void Draw() ;
