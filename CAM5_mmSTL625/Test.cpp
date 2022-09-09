@@ -63,6 +63,8 @@
 	return ;
 }*/
 
+
+/*
 void CCAMDoc::OnTest()
 {
 	int i, k ;
@@ -90,4 +92,45 @@ void CCAMDoc::OnTest()
 	}
 
 	return ;
+}
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+void CCAMDoc::OnTest()
+{
+	//PNT3D iPntOfSegment1 = { -1, -1, -1 }, iPntOfSegment2 = { 1, 1, 1 },  // 线段的两个端点
+	//	iPntOnPlane = { 0, 0, 0 };
+	//VEC3D iNormPlane = {0, 0, 1};  // 平面的法矢及平面上一点
+	//double iTolLength = TOLLENGTH, iTolAngle = TOLANGLE;  // 长度容差及角度容差
+	//PNT3D oPntsOfIntersection[2] = { 1, 1, 1 };
+	//int res = mathSegmentIntPln(iPntOfSegment1, iPntOfSegment2, iPntOnPlane, iNormPlane, iTolLength, iTolAngle, oPntsOfIntersection);
+	
+	//PNT3D iPntOfTri1 = { 1, 1, 1 }, iPntOfTri2 = { 0, 1, 0 }, iPntOfTri3 = { 1, 0, 1 }, // 三角形的三个顶点
+	//	iPntOnPlane = { 0, 0, 0 };
+	//VEC3D iNormPlane = { 0, 0, 1 };  // 平面的法矢及平面上一点
+	//double iTolLength = TOLLENGTH, iTolAngle = TOLANGLE; // 长度容差及角度容差
+	//PNT3D oPntsOfIntersection[3] = { 1 };
+
+	//int res = mathPlnIntTri(
+	//	iPntOfTri1, iPntOfTri2, iPntOfTri3, // 三角形的三个顶点
+	//	iPntOnPlane, iNormPlane,  // 平面的法矢及平面上一点
+	//	iTolLength, iTolAngle,  // 长度容差及角度容差
+	//	oPntsOfIntersection); // 交点数组的指针
+
+	STLPNT3D iSTLPntOfTri1 = { 1, 1, 1 }, iSTLPntOfTri2 = { 0, 1, 0 }, iSTLPntOfTri3 = { 1, 0, 1 }, // 三角形的三个顶点
+		iSTLPntOnPlane = { 0, 0, 0 };
+	STLVECTOR iSTLNormPlane = { 0, 0, 1 };  // 平面的法矢及平面上一点
+	double iTolLength = TOLLENGTH, iTolAngle = TOLANGLE; // 长度容差及角度容差
+	STLPNT3D oSTLPntsOfIntersection[3];
+	int res = mathPlnIntTri(
+		iSTLPntOfTri1, iSTLPntOfTri2, iSTLPntOfTri3, // 三角形的三个顶点
+		iSTLPntOnPlane, iSTLNormPlane,  // 平面的法矢及平面上一点
+		iTolLength, iTolAngle,  // 长度容差及角度容差
+		oSTLPntsOfIntersection); // 交点数组的指针
+
+	return;
 }

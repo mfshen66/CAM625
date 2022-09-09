@@ -5,7 +5,8 @@
 #define STLTRI 60
 
 #define TOLLENGTH EPS06
-#define TOLSUARELENGTH 1e-12
+#define TOLSQUARELENGTH 1e-12
+#define TOLANGLE 1e-10
 
 typedef struct {
 	double   x,y,z;
@@ -29,6 +30,7 @@ STLVECTOR operator- (STLPNT3D &iBegin, STLPNT3D &iEnd);
 STLVECTOR operator- (STLVECTOR &iVector); // 向量取反
 STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
 STLVECTOR operator* (double iScalar, STLVECTOR &iVector);
+double operator*(STLVECTOR & iVector1, STLVECTOR & iVector2);
 STLVECTOR operator^ (STLVECTOR &iVectorU, STLVECTOR &iVectorV);
 
 struct VertexList {
@@ -83,16 +85,23 @@ struct FaceList : public CVO
 // 线段与平面求交
 int mathSegmentIntPln(PNT3D iPntOfSegment1, PNT3D iPntOfSegment2,  // 线段的两个端点
 	PNT3D iPntOnPlane, VEC3D iNormPlane,  // 平面的法矢及平面上一点
-	double tolLength, double tolAngle,  // 长度容差及角度容差
+	double iTolLength, double iTolAngle,  // 长度容差及角度容差
 	PNT3D* oPntsOfIntersection); // 交点数组的指针
 
 // 平面与三角形求交
 int mathPlnIntTri(
 	PNT3D iPntOfTri1, PNT3D iPntOfTri2, PNT3D iPntOfTri3, // 三角形的三个顶点
 	PNT3D iPntOnPlane, VEC3D iNormPlane,  // 平面的法矢及平面上一点
-	double tolLength, double tolAngle,  // 长度容差及角度容差
+	double iTolLength, double iTolAngle,  // 长度容差及角度容差
 	PNT3D* oPntsOfIntersection); // 交点数组的指针
 
+int mathPlnIntTri(
+	STLPNT3D iPntOfTri1, STLPNT3D iPntOfTri2, STLPNT3D iPntOfTri3, // 三角形的三个顶点
+	STLPNT3D iPntOnPlane, STLVECTOR iNormPlane,  // 平面的法矢及平面上一点
+	double iTolLength, double iTolAngle,  // 长度容差及角度容差
+	STLPNT3D* oPntsOfIntersection); // 交点数组的指针
+
+// 两点间的平方距离
 double mathSquareDist(PNT3D p1, PNT3D p2);
 
 struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
@@ -108,7 +117,7 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	POList Copy() ; // nt add 2022/7/10
 	POList DirectOffset(double d) ; // nt add 2022/7/10
 	// 非柔性滚子
-	POList GeodesicOffsetNonFlexible(double iDistance, int iDir); // smf add 2022/7/27
+	POList GeodesicOffsetNonFlexible(double iDistance, int iDir, double& oChordalHeight); // smf add 2022/7/27
 	// 柔性滚子
 	POList GeodesicOffsetFlexible(double d, int dir); // smf add 2022/9/25
 	void Draw() ;
