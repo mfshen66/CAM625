@@ -73,13 +73,14 @@ struct FaceList : public CVO
 	FList GetAdjRayPass(double p[3], double dir[3], double tol) ; // nt add 2022/7/9
 	EList GetEdge(int i, int j) ;
 	VList SchMinVert(double p[3], double& min) ;
-	int PlaneCut(double pivot[3], double normal[3], double p[3], double dir[3], double tol, double q[3], int& i, int& j) ;
+	int PlaneCut(double pivot[3], double normal[3], double p[3], double dir[3], double tol, double q[3], int& i, int& j);
 	int IsIn(double p[3], double tol) ;
 	int IsIn2(double p[3], double tol, double prj_p[3]) ; // nt add 2022/7/9 p的投影在Face内（含边界）
 	void Prj(double p[3], double prj_p[3]) ;
 	void GetBarycenter(double center[3]) ;
 	int Draw(void* pVI, int drawMode) ;
 	int Draw2(void* pVI, int drawMode) ;
+
 };
 
 // 线段与平面求交
@@ -93,16 +94,27 @@ int mathPlnIntTri(
 	PNT3D iPntOfTri1, PNT3D iPntOfTri2, PNT3D iPntOfTri3, // 三角形的三个顶点
 	PNT3D iPntOnPlane, VEC3D iNormPlane,  // 平面的法矢及平面上一点
 	double iTolLength, double iTolAngle,  // 长度容差及角度容差
-	PNT3D* oPntsOfIntersection); // 交点数组的指针
+	PNT3D* oPntsOfIntersection, // 交点数组的指针
+	int *oIndexOfIntEdge, int &oNumOfIntEdge); // 与平面相交的边的序号及数量
 
 int mathPlnIntTri(
 	STLPNT3D iPntOfTri1, STLPNT3D iPntOfTri2, STLPNT3D iPntOfTri3, // 三角形的三个顶点
 	STLPNT3D iPntOnPlane, STLVECTOR iNormPlane,  // 平面的法矢及平面上一点
 	double iTolLength, double iTolAngle,  // 长度容差及角度容差
-	STLPNT3D* oPntsOfIntersection); // 交点数组的指针
+	STLPNT3D* oPntsOfIntersection,  // 交点数组的指针
+	int *oIndexOfIntEdge, int &oNumOfIntEdge); // 与平面相交的边的序号及数量
+
+int mathPlnIntTri(
+	FList iTriangle, // 三角形
+	STLPNT3D iPntOnPlane, STLVECTOR iNormPlane,  // 平面的法矢及平面上一点
+	double iTolLength, double iTolAngle,  // 长度容差及角度容差
+	STLPNT3D* oPntsOfIntersection,  // 交点数组的指针
+	int *oIndexOfIntEdge, int &oNumOfIntEdge); // 与平面相交的边的序号及数量
 
 // 两点间的平方距离
 double mathSquareDist(PNT3D p1, PNT3D p2);
+
+const double INVSQRT2 = 0.70710678118654752440;
 
 struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	int TNum;					//条数标记
@@ -122,6 +134,7 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	POList GeodesicOffsetFlexible(double d, int dir); // smf add 2022/9/25
 	void Draw() ;
 	double Snap(GridModel* pGM, FList fs[2], double ps[2][3], double tol, int& I, double& t, int& perp) ;
+	int CalThresholdHeigh(POList iOffset, int iIndex, STLVECTOR &iOffsetDir, double &oThresholdHeigh);
 };
 
 struct FaceRelated abstract {
