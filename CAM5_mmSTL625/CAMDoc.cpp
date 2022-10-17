@@ -568,6 +568,24 @@ int CCAMDoc::FreeCmdDlg()
 	}
 	return 1 ;
 }
+void CCAMDoc::OutPutChordalHeight(double * iChordalHeight, int iNum)
+{
+	CString filePath;
+	filePath += _T("C:\\Test\\Works\\OutPutChordalHeight.txt");
+	FILE* fp = nullptr;
+	_tfopen_s(&fp, filePath.GetBuffer(0), _T("w"));
+	if (fp)
+	{
+		for (int i = 1; i < iNum; i++)
+		{
+			fprintf(fp, "ChordalHeight[%d] = %.2f mm\n", i, iChordalHeight[i]);
+		}
+
+		fclose(fp);
+	}
+
+	fp = nullptr;
+}
 //======================================================================
 // CCAMDoc ÃüÁî
 //	CCAMDoc attributes

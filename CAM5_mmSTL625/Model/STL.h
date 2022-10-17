@@ -4,9 +4,9 @@
 #define EPS06 1e-6
 #define STLTRI 60
 
-#define TOLLENGTH EPS06
+#define TOLLENGTH 1e-6
 #define TOLSQUARELENGTH 1e-12
-#define TOLANGLE 1e-10
+#define TOLANGLE 1e-6
 
 typedef struct {
 	double   x,y,z;
@@ -26,7 +26,7 @@ typedef struct GridModel GM ; // nt add 2022/6/15
 
 // smf add 2022/09/07
 STLVECTOR vectorNormalize(STLVECTOR &iVector);
-STLVECTOR operator- (STLPNT3D &iBegin, STLPNT3D &iEnd);
+STLVECTOR operator- (STLPNT3D &iEnd, STLPNT3D &iBegin);
 STLVECTOR operator- (STLVECTOR &iVector); // 向量取反
 STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
 STLVECTOR operator* (double iScalar, STLVECTOR &iVector);
@@ -80,7 +80,6 @@ struct FaceList : public CVO
 	void GetBarycenter(double center[3]) ;
 	int Draw(void* pVI, int drawMode) ;
 	int Draw2(void* pVI, int drawMode) ;
-
 };
 
 // 线段与平面求交
@@ -113,6 +112,13 @@ int mathPlnIntTri(
 
 // 两点间的平方距离
 double mathSquareDist(PNT3D p1, PNT3D p2);
+double mathSquareDist(STLPNT3D p1, STLPNT3D p2);
+
+BOOL mathIsCoincidentPoint(STLPNT3D iPoint1, STLPNT3D iPoint2);
+// 两点间的距离
+double mathDist(STLPNT3D p1, STLPNT3D p2);
+
+void mathPrjPntPln(STLPNT3D iPoint, STLPNT3D iPointOfPlane, STLVECTOR iNormalOfPlane, STLPNT3D &oProjectPoint);
 
 const double INVSQRT2 = 0.70710678118654752440;
 
@@ -134,7 +140,12 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	POList GeodesicOffsetFlexible(double d, int dir); // smf add 2022/9/25
 	void Draw() ;
 	double Snap(GridModel* pGM, FList fs[2], double ps[2][3], double tol, int& I, double& t, int& perp) ;
-	int CalThresholdHeigh(POList iOffset, int iIndex, STLVECTOR &iOffsetDir, double &oThresholdHeigh);
+	FList FindNextTri(
+		STLVECTOR iDir, int &number_edge_intersection, int *index_edge_intersection,
+		STLPNT3D &origin_point, FList origin_face, STLVECTOR &origin_normal, STLVECTOR &oPointIntersection);
+	BOOL FindNextPoint(FRelated &ioFace, int &ioFaceNum, STLPNT3D &ioPointOnPlane, STLVECTOR iNormalOfPlane, STLVECTOR iOffsetDir);
+	BOOL IsPointAVertex(STLPNT3D iPoint, FaceList* iFace, int oIndex);
+	BOOL IsPointOnEdge(STLPNT3D iPoint, EList iEdge);
 };
 
 struct FaceRelated abstract {
@@ -279,4 +290,30 @@ struct GridModel {
 	Pl* polylines[100] ;
 } ;
 
+
+// 2022/10/10 smf add
+
+#define OK 1
+#define ERROR 0
+#define TRUE 1
+#define FALSE 0
+#define MAXSIZE 20 /* 存储空间初始分配量 */
+
+typedef int Status;
+typedef int SElemType; /* SElemType类型根据实际情况而定，这里假设为int */
+
+
+/* 链栈结构 */
+typedef struct StackNode
+{
+	SElemType data;
+	struct StackNode *next;
+}StackNode, *LinkStackPtr;
+
+
+typedef struct
+{
+	LinkStackPtr top;
+	int count;
+}LinkStack;
 #endif

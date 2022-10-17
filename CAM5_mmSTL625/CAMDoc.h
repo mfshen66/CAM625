@@ -139,6 +139,8 @@ public:
 	int CmdEnd() ; // 命令结束，nt add 2010/8/22
 	int FreeCmdDlg() ; // 释放命令窗口及对话框, nt add 2010/8/22
 
+	void OutPutChordalHeight(double *iChordalHeight, int iNum);
+
 // 重写
 public:
 	virtual BOOL OnNewDocument();

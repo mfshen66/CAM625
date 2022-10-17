@@ -135,7 +135,7 @@ void CCAMDoc::OnTest()
 	GridModel* pGM = m_pPart->m_pGM;
 
 	POList polist = pGM->POLHead[1], offset = nullptr;
-	double *chordal_height = new double[polist->DNum];
+	double *chordal_height = new double[polist->DNum]; // 每个点的弓高
 	offset = polist->GeodesicOffsetNonFlexible(10, 1, chordal_height);
 	int n = 0;
 	for (int i = 1; i <= (offset->DNum); i++)
@@ -148,6 +148,8 @@ void CCAMDoc::OnTest()
 		AddLin(p, q);
 	}
 	Redraw();
+
+	OutPutChordalHeight(chordal_height, offset->DNum);
 
 	/*PNT3D p = { 0, 0, 0 }, begin = { 0, 0, -1 }, end = { 0, 0, 1 }, p1 = { 1, 1, 0 }, p2 = { -1, -1, 0 };
 	VEC3D v = { 0, 0, 1 };
