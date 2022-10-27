@@ -1,6 +1,6 @@
 ﻿  STL.cpp
   正在生成代码...
-  正在跳过...(未检测到相关更改)
+  正在编译...
   ViewTree.cpp
   ZoomBox.cpp
   Zoom.cpp
@@ -21,6 +21,8 @@
   DrawCir.cpp
   DrawBC.cpp
   DrawArc.cpp
+  正在生成代码...
+  正在编译...
   TLibDlg.cpp
   PDesignDlg.cpp
   MoveDlg.cpp
@@ -30,5 +32,6 @@
   CAMView.cpp
   CAMDoc.cpp
   CAM.cpp
+  正在生成代码...
   CAM.vcxproj -> C:\Git\CAM625\CAM5_mmSTL625\x64\Debug\CAM.exe
   CAM.vcxproj -> C:\Git\CAM625\CAM5_mmSTL625\x64\Debug\CAM.pdb (Full PDB)
