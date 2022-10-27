@@ -32,6 +32,7 @@ STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
 STLVECTOR operator* (double iScalar, STLVECTOR &iVector);
 double operator*(STLVECTOR & iVector1, STLVECTOR & iVector2);
 STLVECTOR operator^ (STLVECTOR &iVectorU, STLVECTOR &iVectorV);
+double mathDotProduct(VEC3D iVector1, VEC3D iVector2);
 
 struct VertexList {
 	STLPNT3D     Coord;		
