@@ -1,3 +1,34 @@
 ﻿  STL.cpp
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  ViewTree.cpp
+  ZoomBox.cpp
+  Zoom.cpp
+  Rotate.cpp
+  Pan.cpp
+  PV.CPP
+  Test.cpp
+  SelSet.cpp
+  Part.cpp
+  MTView.cpp
+  IgesImport.cpp
+  IgesExport.cpp
+  TrimCur.cpp
+  ModSurCPt.cpp
+  DynSpln.cpp
+  DrawPt.cpp
+  DrawLin.cpp
+  DrawCir.cpp
+  DrawBC.cpp
+  DrawArc.cpp
+  TLibDlg.cpp
+  PDesignDlg.cpp
+  MoveDlg.cpp
+  ModelDlg.cpp
+  FilletCurDlg.cpp
+  Command.cpp
+  CAMView.cpp
+  CAMDoc.cpp
+  CAM.cpp
   CAM.vcxproj -> C:\Git\CAM625\CAM5_mmSTL625\x64\Debug\CAM.exe
   CAM.vcxproj -> C:\Git\CAM625\CAM5_mmSTL625\x64\Debug\CAM.pdb (Full PDB)
