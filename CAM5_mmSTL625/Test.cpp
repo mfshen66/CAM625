@@ -134,18 +134,25 @@ void CCAMDoc::OnTest()
 
 	GridModel* pGM = m_pPart->m_pGM;
 
-	POList polist = pGM->POLHead[1], offset = nullptr;
+	POList polist = pGM->POLHead[1], offset = nullptr, offset_2 = nullptr;
 	int n = 0;
 	for (int i = 1; i <= (polist->DNum); i++)
 		n += (polist->ENum[i] - polist->SNum[i] + 1); // 计算需要等距的点数？？？
 	double *chordal_height = new double[n + 1]; // 每个点的弓高
 
-	offset = polist->GeodesicOffsetNonFlexible(50, 1, chordal_height);
-	for (size_t i = 1; i < n; i++)
+	offset = polist->GeodesicOffsetNonFlexible(50, 1, chordal_height, offset_2);
+
+	int n_offset = 0;
+	for (int i = 1; i <= (offset->DNum); i++)
+		n_offset += (offset->ENum[i] - offset->SNum[i] + 1); // 计算需要等距的点数？？？
+	for (size_t i = 1; i < n_offset; i++)
 	{
 		PNT3D p, q;
 		memcpy(p, &offset->PTrail[i], sizeof(PNT3D));
 		memcpy(q, &offset->PTrail[i + 1], sizeof(PNT3D));
+		AddLin(p, q);
+		memcpy(p, &offset_2->PTrail[i], sizeof(PNT3D));
+		memcpy(q, &offset_2->PTrail[i + 1], sizeof(PNT3D));
 		AddLin(p, q);
 	}
 	Redraw();
