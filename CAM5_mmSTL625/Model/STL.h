@@ -8,6 +8,8 @@
 #define TOLSQUARELENGTH 1e-12
 #define TOLANGLE 1e-6
 
+#define INVERSQRT2 0.7071067811865475244
+
 typedef struct {
 	double   x,y,z;
 } STLVECTOR;
@@ -136,10 +138,10 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	// 非柔性滚子
 	POList GeodesicOffsetNonFlexible(double iDistance, int iDir, double * oChordalHeight, POList &offset_2); // smf add 2022/7/27
 	// 柔性滚子
-	POList GeodesicOffsetFlexible(double iDistance, int iDir, double *oChordalHeight); // smf add 2022/9/25
+	POList GeodesicOffsetFlexible(double iDistance, int iDir, double *oChordalHeight, POList &offset_2); // smf add 2022/9/25
 	void Draw() ;
 	double Snap(GridModel* pGM, FList fs[2], double ps[2][3], double tol, int& I, double& t, int& perp) ;
-	BOOL FindNextPoint(FRelated &ioFace, int &ioFaceNum, STLPNT3D &ioPointOnPlane, STLVECTOR iNormalOfPlane, STLVECTOR iOffsetDir);
+	BOOL FindNextPoint(FRelated &ioFace, int &ioFaceNum, STLPNT3D &ioPointOnPlane, STLVECTOR iNormalOfPlane, STLVECTOR iLastDir);
 	BOOL IsPointAVertex(STLPNT3D iPoint, FaceList* iFace, int oIndex);
 	BOOL IsPointOnEdge(STLPNT3D iPoint, EList iEdge);
 };
