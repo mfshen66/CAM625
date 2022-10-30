@@ -136,9 +136,15 @@ struct MTIPathOriginList{//排序前路径可分段,排序后路径不可分段
 	POList Copy() ; // nt add 2022/7/10
 	POList DirectOffset(double d) ; // nt add 2022/7/10
 	// 非柔性滚子
-	POList GeodesicOffsetNonFlexible(double iDistance, int iDir, double * oChordalHeight, POList &offset_2); // smf add 2022/7/27
+	POList GeodesicOffsetNonFlexible(
+		double iDistance, 
+		int iDir,  // 确保等距方向保持一致，iDir=1 或 iDir=-1.
+		double * oChordalHeight); // smf add 2022/7/27
 	// 柔性滚子
-	POList GeodesicOffsetFlexible(double iDistance, int iDir, double *oChordalHeight, POList &offset_2); // smf add 2022/9/25
+	POList GeodesicOffsetFlexible(
+		double iDistance, 
+		int iDir, // 确保等距方向保持一致，iDir=1 或 iDir=-1.
+		double *oChordalHeight); // smf add 2022/9/25
 	void Draw() ;
 	double Snap(GridModel* pGM, FList fs[2], double ps[2][3], double tol, int& I, double& t, int& perp) ;
 	BOOL FindNextPoint(FRelated &ioFace, int &ioFaceNum, STLPNT3D &ioPointOnPlane, STLVECTOR iNormalOfPlane, STLVECTOR iLastDir);

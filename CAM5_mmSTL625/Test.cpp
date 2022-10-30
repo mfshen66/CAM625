@@ -140,7 +140,9 @@ void CCAMDoc::OnTest()
 		n += (polist->ENum[i] - polist->SNum[i] + 1); // 计算需要等距的点数？？？
 	double *chordal_height = new double[n + 1]; // 每个点的弓高
 
-	offset = polist->GeodesicOffsetNonFlexible(50, 1, chordal_height, offset_2);
+	offset = polist->GeodesicOffsetNonFlexible(50, 1, chordal_height);
+
+	offset_2 = polist->GeodesicOffsetFlexible(50, 1, chordal_height);
 
 	int n_offset = 0;
 	for (int i = 1; i <= (offset->DNum); i++)
@@ -157,6 +159,7 @@ void CCAMDoc::OnTest()
 	}
 	Redraw();
 
+	// 输出弓高数据至C:\\Test\\OutPutChordalHeight.txt。
 	OutPutChordalHeight(chordal_height, offset->ENum[1]);
 
 	/*PNT3D p = { 0, 0, 0 }, begin = { 0, 0, -1 }, end = { 0, 0, 1 }, p1 = { 1, 1, 0 }, p2 = { -1, -1, 0 };

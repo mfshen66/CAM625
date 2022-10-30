@@ -568,6 +568,9 @@ int CCAMDoc::FreeCmdDlg()
 	}
 	return 1 ;
 }
+
+// smf add 2022/10/09
+// 输出弓高数据至C:\\Test\\OutPutChordalHeight.txt。
 void CCAMDoc::OutPutChordalHeight(double * iChordalHeight, int iNum)
 {
 	FILE* fp = nullptr;
