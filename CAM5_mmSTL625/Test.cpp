@@ -162,12 +162,35 @@ void CCAMDoc::OnTest()
 	// 输出弓高数据至C:\\Test\\OutPutChordalHeight.txt。
 	OutPutChordalHeight(chordal_height, offset->ENum[1]);
 
-	/*PNT3D p = { 0, 0, 0 }, begin = { 0, 0, -1 }, end = { 0, 0, 1 }, p1 = { 1, 1, 0 }, p2 = { -1, -1, 0 };
-	VEC3D v = { 0, 0, 1 };
-	double r = 1, tol = TOLLENGTH;
-	int pn = 0;
-	PNT3D p_int1, p_int2;
-	mathIntSegmCyl(begin, end, p, v, r, tol, &pn, p1, p2, p_int1, p_int2);*/
+	//PNT3D begin = { -1, -1, 2 }, end = { 1, 1, 2 }, pivot = { 0, 0, 0 }, p1, p2, pivot2 = {0, 0, 1};
+	//VEC3D axis;
+	//mathGetVecUnit(pivot, pivot2, axis);
+	//double r = 1., tol = MIN_DBL, pt1, pt2;
+	//int pn;
+	//int res = 0;
+	//if (mathIntSegmCyl(begin, end, pivot, axis, r, tol, &pn, p1, p2, &pt1, &pt2) == IDINT)
+	//{
+	//	if (mathIsPointOnExtension(p1, pivot, pivot2, r))
+	//	{
+	//		res++;
+	//	}
+	//	if (pn == 2)
+	//	{
+	//		if (mathIsPointOnExtension(p2, pivot, pivot2, r))
+	//		{
+	//			res++;
+	//		}
+	//	}
+	//}
+
+	STLVECTOR iSegmBegin = { 1, 0, 1 }, iSegmEnd = { 1, 0, 0 };		//线段的两个端点
+	STLVECTOR iCylBegin = { 0, 0, 0 }, iCylEnd = { 0, 0, 1 };		// 圆柱轴线的起止点
+	double iRadius = 1.;						// 圆柱半径
+	double iTol = TOLANGLE;						// 容差 
+	int oNumIntPnts;							// 交点个数
+	STLVECTOR oIntPnts[2];						// 交点数组
+	mathIntSegmCyl(iSegmBegin, iSegmEnd, iCylBegin, iCylEnd, iRadius, iTol, oNumIntPnts, oIntPnts);
+
 	delete[] chordal_height;
 	chordal_height = nullptr;
 

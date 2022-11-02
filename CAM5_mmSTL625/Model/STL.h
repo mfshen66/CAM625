@@ -34,6 +34,45 @@ STLVECTOR operator+ (STLVECTOR &iVector1, STLVECTOR &iVector2);
 STLVECTOR operator* (double iScalar, STLVECTOR &iVector);
 double operator*(STLVECTOR & iVector1, STLVECTOR & iVector2);
 STLVECTOR operator^ (STLVECTOR &iVectorU, STLVECTOR &iVectorV);
+
+// smf add 2022/11/01
+// 判断圆柱面上的点是否在延长段上:
+// iCylBegin, iCylEnd: 圆柱轴线起止点
+// iRadius: 圆柱半径
+BOOLEAN mathIsPointOnExtension(PNT3D iPoint, PNT3D iCylBegin, PNT3D iCylEnd, double iRadius);
+
+// smf add 2022/11/01
+// 线段与圆柱段求交: 
+// iSegmBegin, iSegmEnd: 线段的两个端点
+// iCylBegin, iCylEnd: 圆柱轴线起止点
+// iRadius: 圆柱半径
+// oNumIntPnts: 交点个数
+// oIntPnts: 交点数组
+BOOLEAN mathIntSegmCyl(
+	STLVECTOR iSegmBegin, STLVECTOR iSegmEnd,	//线段的两个端点
+	STLVECTOR iCylBegin, STLVECTOR iCylEnd,		// 圆柱轴线的起止点
+	double iRadius,								// 圆柱半径
+	double iTol,								// 容差 
+	int &oNumIntPnts,							// 交点个数
+	STLVECTOR *oIntPnts);						// 交点数组
+
+// 直线与圆柱求交
+int mathIntLinCyl(PNT3D begin, VEC3D dir, PNT3D pivot, VEC3D axis, double r, double tol, double ang, PNT3D intpt1, PNT3D intpt2);
+// 线段与圆柱求交
+int mathIntSegmCyl(PNT3D begin, PNT3D end, PNT3D pivot, VEC3D axis, double r, double tol, int* pn, PNT3D p1, PNT3D p2, double* pt1, double* pt2);
+
+void mathTransWorldVec3DByXYZ(VEC3D e1,
+	VEC3D e2,
+	VEC3D e3,
+	VEC3D world_vector,
+	VEC3D local_vector);
+void mathTransLocalPnt3DByOXYZ(PNT3D origin,
+	VEC3D e1,
+	VEC3D e2,
+	VEC3D e3,
+	PNT3D local_point,
+	PNT3D world_point);
+
 struct VertexList {
 	STLPNT3D     Coord;		
 	STLVECTOR    NormalVector;
